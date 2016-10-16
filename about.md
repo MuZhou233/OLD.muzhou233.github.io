@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-description: "学苟知本，六经皆我注脚 "
+description: "我现在是一个IOer, 我不知道我未来会是谁"
 header-img: "img/green.jpg"
 ---
 

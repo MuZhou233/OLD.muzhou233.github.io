@@ -59,7 +59,7 @@ Step 4:重启
 - **不讲道理**,自行探索  
  	
 [更多介绍](http://www.cnblogs.com/csulennon/p/4452302.html)  
-
+  
 ***  
 
 #Ubuntu-tweak  
@@ -93,7 +93,7 @@ Numix 确实是一款漂亮的主题。它有着扁平和弧形图标，并且�
     sudo add-apt-repository ppa:numix/ppa  
     sudo apt-get update  
     sudo apt-get install numix-gtk-theme numix-icon-theme numix-icon-theme-circle numix-wallpaper-saucy  
-
+  
 ***  
 
 注:这两款工具安装之后最好注销重登陆,调整 compiz 的时候有可能重载用户界面,如果出现BUG,请尝试注销或重启  

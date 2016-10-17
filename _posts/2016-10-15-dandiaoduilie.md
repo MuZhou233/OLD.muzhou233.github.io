@@ -43,6 +43,7 @@ description:
 ***
 
 裸题欣赏:
+
 #[COGS495 窗口](http://cogs.pro/cogs/problem/problem.php?pid=495)
 
 ★☆   输入文件：window.in   输出文件：window.out   简单对比

@@ -11,8 +11,8 @@ description:
 -但是这个神奇似乎一直游离于Debian的软件库外
 -官方 PPA 源也不提供对Debain的支持
 
-
-##难道我们就这样放弃么？
+  
+##难道我们就这样放弃么？  
 ##当然是不可能的！！！！
 
 
@@ -39,7 +39,7 @@ description:
 试一下
 >apt-fast update
 >apt-fast upgrade
->apt-fast install XXXXX
+>apt-fast install XXXXX  
 
 ##为什么只有4线程？ 说好的10线程呢？
 
@@ -63,7 +63,7 @@ description:
 ***
 再试试
 
->apt-fast install XXXXX
+>apt-fast install XXXXX  
 
 ##妥妥的10线程有木有！有木有！
 

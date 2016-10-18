@@ -8,13 +8,23 @@
 
 
 <body ontouchstart="">
-
+	<div id="loading">
+		<div id="loading-center">
+			<div id="loading-center-absolute">
+				<div id="object"></div>
+			</div>
+		</div>
+	</div>    
     {% include nav.html %}
 
     {{ content }}
 
     {% include footer.html %}
-
+$(window).load(function() {
+	$("#loading-center").click(function() {
+		$("#loading").fadeOut(500);
+	})    
+}); 
 </body>
 
 </html>

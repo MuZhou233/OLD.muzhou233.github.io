@@ -1,8 +1,5 @@
 $(document).ready(function() {
 
-    // hide #back-top first
-    $("#back-top").hide();
-
     // fade in #back-top
     $(function() {
         $(window).scroll(function() {
@@ -21,5 +18,8 @@ $(document).ready(function() {
             return false;
         });
     });
+
+    // hide #back-top first
+    $("#back-top").hide();
 
 });

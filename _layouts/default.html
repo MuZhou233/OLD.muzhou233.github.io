@@ -19,11 +19,11 @@
 	<script>
 	$("#loading").fadeOut("slow");
 	</script>
-	<script>
-	window.onbeforeunload = function(){
-		alert("关闭窗口测试");
-		$("#loading").fadeIn("slow");
-	});
+	<script type="text/JavaScript">
+		window.onbeforeunload = function(){
+			alert("关闭窗口测试");
+			$("#loading").fadeIn("slow");
+		});
 	</script>
 </body>
 

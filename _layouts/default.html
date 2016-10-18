@@ -10,9 +10,6 @@
 				<div id="object"></div>
 			</div>
 		</div>
-		<div>
-			<p>载入中...</p>
-		</div>
 	</div>    
     {% include nav.html %}
 
@@ -24,7 +21,7 @@
 	</script>
 	<script>
 	window.onbeforeunload = function(){
-		alert("关闭窗口测试")
+		alert("关闭窗口测试");
 		$("#loading").fadeIn("slow");
 	});
 	</script>

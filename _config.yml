@@ -4,7 +4,7 @@ header-img: "img/green.jpg"
 tagline: "cn"  
 description: "MuZhou"  
 baseurl: ""
-url: "http://cnfeat"  
+url: "http://muzhou.tk"  
 
 # About/contact
 owner: 
@@ -13,8 +13,8 @@ owner:
   bio: ""
 
 # Data
-gavatar: http://dreamofbook.qiniudn.com/Az..png
-favicon: img/favicon.png
+gavatar: 
+favicon: 
 
 douban_username:  
 twitter_username: 

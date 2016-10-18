@@ -86,19 +86,19 @@
 
                 </ul>
                 <p class="copyright text-muted">
-                &copy; {{ site.time | date: '%Y' }} {{ site.owner.name }} ❖ Powered by Jekyll. ❖ Forked from CnFeat.
+                &copy; {{ site.time | date: '%Y' }} {{ site.owner.name }} ❖ Powered by Jekyll. ❖ DNS by DNSpod ❖ Forked from CnFeat.
                 </p>
             </div>
-<div>
-<p>距NOIP2016还有
-<p id="CountMsg" class="HotDate"> 
-<span id="t_d">00天</span> 
-<span id="t_h">00时</span> 
-<span id="t_m">00分</span> 
-<span id="t_s">00秒</span> 
-</p> 
-</p>
-</div>
+			<div>
+				<p>距NOIP2016还有
+					<p id="CountMsg" class="HotDate"> 
+					<span id="t_d">00天</span> 
+					<span id="t_h">00时</span> 
+					<span id="t_m">00分</span> 
+					<span id="t_s">00秒</span> 
+					</p> 
+				</p>
+			</div>
         </div>
     </div>
 </footer>
@@ -118,14 +118,6 @@ function getRTime(){
 var EndTime= new Date('2016/11/19 8:30:00'); //截止时间 
 var NowTime = new Date(); 
 var t =EndTime.getTime() - NowTime.getTime(); 
-/*var d=Math.floor(t/1000/60/60/24); 
-t-=d*(1000*60*60*24); 
-var h=Math.floor(t/1000/60/60); 
-t-=h*60*60*1000; 
-var m=Math.floor(t/1000/60); 
-t-=m*60*1000; 
-var s=Math.floor(t/1000);*/ 
-
 var d=Math.floor(t/1000/60/60/24); 
 var h=Math.floor(t/1000/60/60%24); 
 var m=Math.floor(t/1000/60%60); 

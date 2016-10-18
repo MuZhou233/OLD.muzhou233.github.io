@@ -3,7 +3,7 @@ $(document).ready(function() {
     // fade in #back-top
     $(function() {
         $(window).scroll(function() {
-            if ($(this).scrollTop() > 100) {
+            if ($(this).scrollTop() > 99) {
                 $('#back-top').fadeIn();
             } else {
                 $('#back-top').fadeOut();

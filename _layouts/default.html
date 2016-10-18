@@ -3,10 +3,6 @@
 
 {% include head.html %}
 
-
-
-
-
 <body ontouchstart="">
 	<div id="loading">
 		<div id="loading-center">
@@ -24,9 +20,9 @@
 $("#loading").fadeOut("slow");
 </script>
 <script>
-window.onbeforeunload=function(){
+window.onbeforeunload = function(){
 	$("#loading").fadeIn("slow");
-}); 
+});
 </script>
 </body>
 

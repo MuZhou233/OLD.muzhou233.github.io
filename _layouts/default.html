@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
+	
 {% include head.html %}
-
+	
 <body ontouchstart="">
 	<div id="loading">
 		<div id="loading-center">
 			<div id="loading-center-absolute">
 				<div id="object"></div>
 			</div>
-			<div>
-				<p>ÔØÈëÖĞ...</p>
-			</div>
+		</div>
+		<div>
+			<p>è½½å…¥ä¸­...</p>
 		</div>
 	</div>    
     {% include nav.html %}
@@ -19,14 +19,15 @@
     {{ content }}
 
     {% include footer.html %}
-<script>
-$("#loading").fadeOut("slow");
-</script>
-<script>
-window.onbeforeunload = function(){
-	$("#loading").fadeIn("slow");
-});
-</script>
+	<script>
+	$("#loading").fadeOut("slow");
+	</script>
+	<script>
+	window.onbeforeunload = function(){
+		alert("å…³é—­çª—å£æµ‹è¯•")
+		$("#loading").fadeIn("slow");
+	});
+	</script>
 </body>
 
 </html>

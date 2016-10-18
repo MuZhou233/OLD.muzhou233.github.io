@@ -22,7 +22,9 @@
     {% include footer.html %}
 <script>
 $("#loading").fadeOut("slow");
-$(window).unload(function(){
+</script>
+<script>
+$(window).onunload(function(){
 	$("#loading").fadeIn("fast");
 });
 </script>

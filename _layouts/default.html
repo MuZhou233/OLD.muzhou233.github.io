@@ -2,7 +2,9 @@
 <html lang="en">
 	
 {% include head.html %}
-	<script>
+
+<body onbeforeunload="return unLoad()">
+    <script>
 	$("#loading").fadeOut("slow");
 	</script>
 	<script type="text/JavaScript">
@@ -11,7 +13,6 @@
 			$("#loading").fadeIn("slow");
 		});
 	</script>
-<body onbeforeunload="return unLoad()">
 	<div id="loading">
 		<div id="loading-center">
 			<div id="loading-center-absolute">
@@ -24,6 +25,7 @@
     {{ content }}
 
     {% include footer.html %}
+
 </body>
 
 </html>

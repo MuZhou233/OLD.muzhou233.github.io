@@ -3,7 +3,7 @@
 	
 {% include head.html %}
 
-<body onunload="return run_unLoad()">
+<body>
 
 	<div id="loading">
 		<div id="loading-center">
@@ -21,7 +21,7 @@
 	$("#loading").fadeOut("slow");
 	</script>
 	<script type="text/JavaScript">
-		function run_unLoad(){
+		window.onbeforeunload = function(){
 			alert("haha");
 			$("#loading").fadeIn("slow");
 		});

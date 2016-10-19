@@ -1,6 +1,6 @@
 # Site settings
 title: 绝云气|负青天
-header-img: "img/green.jpg"
+header-img: "img/blue.jpg"
 tagline: "cn"  
 description: "MuZhou"  
 baseurl: ""
@@ -61,3 +61,6 @@ google_verify:
 bing_verify:
 
 # Links to include in footer navigation
+
+# Gems
+gems: [jekyll-paginate]

@@ -2,7 +2,6 @@
 layout: page
 title: "About"
 description: "我现在是一个IOer, 我不知道我未来会是谁"
-header-img: "img/green.jpg"
 ---
 
 我Fork了原作者的仓库, 未来这里将是我的领地  
@@ -24,7 +23,7 @@ header-img: "img/green.jpg"
 
 2016-10-20更新  
 
-本博客的国内访问已转移至[coding](coding.net)的仓库，来加快访问速度，你也可以选择访问由[github](mu-zhou.github.io)托管的网站或直接访问[github](https://github.com/Mu-Zhou/mu-zhou.github.io)|[coding](https://coding.net/u/muzhou/p/blog/git)仓库  
+本博客的国内访问已转移至 [coding](coding.net) 的仓库，来加快访问速度，你也可以选择访问由 [github](mu-zhou.github.io) 托管的网站或直接访问 [github](https://github.com/Mu-Zhou/mu-zhou.github.io)|[coding](https://coding.net/u/muzhou/p/blog/git) 仓库  
 
 本博已经在源仓库的基础上加入新的内容：  
 1. loading动画，如果你没有发现的话，你一定发现了一个一闪而过的小方块  

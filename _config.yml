@@ -26,7 +26,10 @@ zhihu_username: mu-zhou-55
 # Build settings  
 # use Github Flavored Markdown !important  
 # document: http://jekyllrb.com/docs/configuration/#kramdown  
-markdown: kramdown
+markdown: rdiscount
+rdiscount:
+  extensions:
+    - generate_toc
 highlighter: rouge
 permalink: pretty
 paginate: 8

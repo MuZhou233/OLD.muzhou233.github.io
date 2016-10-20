@@ -6,7 +6,7 @@ categories: blog
 tags: [linux]
 description: 
 ---
-此应用集意在记录我这段时间多次重复安装配置ubuntu的一点经验
+此应用集意在记录我这段时间多次重复安装配置ubuntu的一点经验  
 **注:**
 **本人使用的环境为 ubuntu12.04LTS 桌面环境为默认的 unity,虽然版本较老 但比较稳定**
 **本文中使用的 apt-fast 命令在我的另一篇博客中提到,如果没有安装请改为 apt-get**

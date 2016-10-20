@@ -105,6 +105,9 @@
 <!-- jQuery -->
 <script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
 
+<!-- toc -->
+<script src="{{ "/js/jekyll-table-of-contents.js " | prepend: site.baseurl }}"></script>
+
 <!-- Bootstrap Core JavaScript -->
 <script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
 
@@ -129,6 +132,12 @@ document.getElementById("t_s").innerHTML = s + "秒";
 } 
 setInterval(getRTime,1000); 
 </script> 
+
+<!-- toc -->
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#toc').toc();
+}); </script>
 
 <!-- Highlight.js -->
 <script>

@@ -3,7 +3,7 @@
 	
 {% include head.html %}
 
-<body onunload = "Unload()">
+<body data-spy="scroll" data-target=".toc" data-offset="20">
 
 	<div id="loading">
 		<div id="loading-center">
@@ -11,7 +11,7 @@
 				<div id="object"></div>
 			</div>
 		</div>
-	</div>    
+	</div>
     {% include nav.html %}
 
     {{ content }}
@@ -19,12 +19,6 @@
     {% include footer.html %}
     <script>
 	$("#loading").fadeOut("slow");
-	</script>
-	<script type="text/JavaScript">
-		function Unload(){
-			alert("haha");
-			$("#loading").fadeIn("slow");
-		});
 	</script>
 </body>
 

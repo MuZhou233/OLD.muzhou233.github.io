@@ -89,8 +89,8 @@
                 &copy; {{ site.time | date: '%Y' }} {{ site.owner.name }} ❖ Powered by Jekyll. ❖ DNS by DNSpod ❖ Forked from CnFeat.
                 </p>
             </div>
-			<div>
-				距NOIP2016还有
+			<div id="countdown">
+				警告!距NOIP2016还有
 				<p id="CountMsg" class="HotDate"> 
 				<span id="t_d">00天</span> 
 				<span id="t_h">00时</span> 
@@ -101,6 +101,18 @@
         </div>
     </div>
 </footer>
+
+<style type="text/css">
+#countdown{
+position:fixed;
+z-index:1;
+font-size:25;
+top:80%;
+left:80%;
+width:20%;
+height:25px;
+line-height:25px;
+}</style>
 
 <!-- jQuery -->
 <script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>

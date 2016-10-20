@@ -19,3 +19,13 @@ header-img: "img/green.jpg"
 5. 未来还要去 DNSpod 加上 CDN  
 
 还有，我的仓库随便Fork  
+
+***
+
+2016-10-20更新  
+
+本博客的国内访问已转移至[coding](coding.net)的仓库，来加快访问速度，你也可以选择访问由[github](mu-zhou.github.io)托管的网站或直接访问[github](https://github.com/Mu-Zhou/mu-zhou.github.io)|[coding](https://coding.net/u/muzhou/p/blog/git)仓库  
+
+本博已经在源仓库的基础上加入新的内容：  
+1. loading动画，如果你没有发现的话，你一定发现了一个一闪而过的小方块  
+2. 悬浮目录侧栏，如果它身上出现了鬼畜的事情，请原谅我一个弱弱的现学 HTML+CSS+JavaScript+JQuery 现用的人吧，我已经尽力了  

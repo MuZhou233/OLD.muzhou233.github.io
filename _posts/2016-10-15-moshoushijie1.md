@@ -70,24 +70,24 @@ description:
 
 ###样例输出
 
-Case:1
-000 red iceman 1 born with strength 5,1 iceman in red headquarter
-000 blue lion 1 born with strength 6,1 lion in blue headquarter
-001 red lion 2 born with strength 6,1 lion in red headquarter
-001 blue dragon 2 born with strength 3,1 dragon in blue headquarter
-002 red wolf 3 born with strength 7,1 wolf in red headquarter
-002 blue ninja 3 born with strength 4,1 ninja in blue headquarter
-003 red headquarter stops making warriors
-003 blue iceman 4 born with strength 5,1 iceman in blue headquarter
+Case:1  
+000 red iceman 1 born with strength 5,1 iceman in red headquarter  
+000 blue lion 1 born with strength 6,1 lion in blue headquarter  
+001 red lion 2 born with strength 6,1 lion in red headquarter  
+001 blue dragon 2 born with strength 3,1 dragon in blue headquarter  
+002 red wolf 3 born with strength 7,1 wolf in red headquarter  
+002 blue ninja 3 born with strength 4,1 ninja in blue headquarter  
+003 red headquarter stops making warriors  
+003 blue iceman 4 born with strength 5,1 iceman in blue headquarter  
 004 blue headquarter stops making warriors  
 ##题目分析
 按照题目模拟操作，主要考察代码能力   
 ##代码实现
 作为竞赛选手，我打了一些不像工程不像竞赛的代码，之后还有两道扩展题需要做，希望我不会死
 我的写代码过程：  
-	1.按照题目随心写  
-	2.Compile 更正语法错误  
-	3.debug 把代码改正确  
+1. 按照题目随心写  
+2. Compile 更正语法错误  
+3. debug 把代码改正确  
 然后我就第一次浅显地体会到了如何维持代码可扩展
 
 ---

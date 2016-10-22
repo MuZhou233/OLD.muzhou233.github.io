@@ -35,7 +35,7 @@ layout: default
 
 <!-- Post Content -->
 <article>
-<div class="leftContext">
+<div id="maintest" class="col-md-9">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
@@ -99,21 +99,22 @@ layout: default
         </div>
     </div>
 </div>
-<div class="rightContext">
-	<div id="toc"></div>
-</div>
+    <div class="col-md-3 scrollspy">
+        <ul id="nav" class="nav hidden-xs hidden-sm" data-spy="affix" data-offset-top="380">
+            <div id="toc"></div>
+        </ul><!-- end of main navigation -->
+    </div>
 </article>
 
-<style type="text/css">
-#toc{
-position:fixed;
-z-index:1;
-top:10%;
-left:70%;
-width:30%;
-height:25px;
-line-height:25px;
-}</style>
+<style>
+.affix-top {
+    position: relative;
+    width: 500%;
+}
+.affix {
+    top: 10%;
+}
+</style>
 
 <!-- 多说公共JS代码 start (一个网页只需插入一次) 
 <script type="text/javascript">

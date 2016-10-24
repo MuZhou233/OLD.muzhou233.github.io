@@ -40,7 +40,7 @@ int e[N];//节点储存的流量
 int Min(int x,int y){return x<y?x:y;}//辅助函数
 
 bool push_up(int p){//提升节点高度
-	int new_h=h[p];//当前节点原来的高度
+	int new_h=INF;//当前节点原来的高度
 	for(int i=iter[p];i!=-1;i=G[i].nex)//枚举边
 		if(G[i].v)new_h=Min(new_h, h[G[i].to]);//只计算边还存在流量的点
 	new_h++;//比相邻节点的最低高度高 1

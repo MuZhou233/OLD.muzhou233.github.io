@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Archive"
+title: "目录"
 description: "你看到的，是我想给你或者我自己看的所有"
 header-img: "img/black.jpg"
 ---

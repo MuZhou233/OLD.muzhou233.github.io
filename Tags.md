@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "分类"
+title: "目录"
 description: "哈哈，你找到了我的文章基因库"  
 header-img: "img/semantic.jpg"  
 ---

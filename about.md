@@ -36,3 +36,9 @@ description: "我现在是一个 OIer, 我不知道我未来会是谁"
 对网页进行响应式优化，更改集中在导航栏：  
 1. 加入 bootstrap 的 affix 功能  
 2. 在窄页面下自动隐藏  
+
+***
+
+2016-10-26更新  
+
+感谢 [Hux](https://huangxuan.me/) 的 css 样式

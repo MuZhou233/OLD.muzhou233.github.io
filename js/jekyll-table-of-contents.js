@@ -7,7 +7,7 @@
 	      minimumHeaders: 3,
 	      headers: 'h1, h2, h3, h4, h5, h6',
 	      listType: 'ul', // values: [ol|ul]
-	      showEffect: 'fadeIn', // values: [show|slideDown|fadeIn|none]
+	      showEffect: 'show', // values: [show|slideDown|fadeIn|none]
 	      showSpeed: 'slow', // set to 0 to deactivate effect
 	      classes: { list: '',
 	                 item: ''
@@ -23,7 +23,7 @@
 	
 	    function createLink (header) {
 	      var innerText = (header.textContent === undefined) ? header.innerText : header.textContent;
-	      return "<a href='#" + fixedEncodeURIComponent(header.id) + "'>" + innerText + "</a>";
+	      return "<a data-scroll href='#" + fixedEncodeURIComponent(header.id) + "'>" + innerText + "</a>";
 	    }
 	
 	    var headers = $(settings.headers).filter(function() {

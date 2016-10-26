@@ -86,6 +86,9 @@
 
                 </ul>
                 <p class="copyright text-muted">
+                Friends: <a target="_blank" href="http://cybeird.tk">cybeird</a>
+                </p>
+                <p class="copyright text-muted">
                 &copy; {{ site.time | date: '%Y' }} {{ site.owner.name }} ❖ Powered by Jekyll. ❖ DNS by DNSpod ❖ Forked from CnFeat.
                 </p>
             </div>
@@ -121,27 +124,7 @@ line-height:25px;
 <script src="{{ "/js/jekyll-table-of-contents.js " | prepend: site.baseurl }}"></script>
 
 <!-- smooth-scroll -->
-<script src="{{ "/js/smooth-scroll.js " | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/smooth-scroll.min.js " | prepend: site.baseurl }}"></script>
-<script type="text/javascript">
-smoothScroll.init();
-(function (window, document, undefined) {
-    'use strict';
-    // Cut the mustard
-    var supports = 'querySelector' in document && 'addEventListener' in window;
-    if ( !supports ) return;
-    // Get all anchors
-    var anchors = document.querySelectorAll( '[href*="#"]' );
-    // Add smooth scroll to all anchors
-    for ( var i = 0, len = anchors.length; i < len; i++ ) {
-        var url = new RegExp( window.location.hostname + window.location.pathname );
-        if ( !url.test( anchors[i].href ) ) continue;
-        anchors[i].setAttribute( 'data-scroll', true );
-    }
-    // Initial smooth scroll (add your attributes as desired)
-    smoothScroll.init();
-})(window, document);   
-</script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>

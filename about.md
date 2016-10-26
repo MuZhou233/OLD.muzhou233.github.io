@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About"
+title: "关于"
 description: "我现在是一个 OIer, 我不知道我未来会是谁"
 ---
 

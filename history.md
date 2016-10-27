@@ -44,4 +44,4 @@ description: "我从建站中学到了很多"
 本页标题更换为: 历史  
 我发现了 [Hux](https://huangxuan.me/) 的分支, 感谢他制作的 css 样式  
 
-下次更新将修复IE浏览器的BUG  
+**下次更新将修复IE浏览器的BUG**  

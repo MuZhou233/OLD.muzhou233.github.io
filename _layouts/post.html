@@ -26,12 +26,21 @@ layout: default
                     <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
                 </div>
             </div>
+            <div class="col-md-3">
+            	<div id="qrcode"></div>
+            </div>
         </div>
     </div>
 </header>
 
-
-
+<!-- qrcode -->
+<!--style>#qrcode{
+	float: right;
+	width: 200px;
+	height: 200px;
+}</style-->
+<script type='text/javascript' src='http://cdn.staticfile.org/jquery.qrcode/1.0/jquery.qrcode.min.js'></script>
+<script>jQuery('#qrcode').qrcode("http://blog.wpjam.com");</script>
 
 <!-- Post Content -->
 <article>

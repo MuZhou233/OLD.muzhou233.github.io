@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "关于"
-description: "我现在是一个 OIer, 我不知道我未来会是谁"
+title: "网站历史"
+description: "我从建站中学到了很多"
 ---
 
 我Fork了原作者的仓库, 未来这里将是我的领地  
@@ -41,4 +41,7 @@ description: "我现在是一个 OIer, 我不知道我未来会是谁"
 
 2016-10-26更新  
 
-感谢 [Hux](https://huangxuan.me/) 的 css 样式
+本页标题更换为: 历史  
+我发现了 [Hux](https://huangxuan.me/) 的分支, 感谢他制作的 css 样式  
+
+下次更新将修复IE浏览器的BUG  

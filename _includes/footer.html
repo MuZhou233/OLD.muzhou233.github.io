@@ -86,7 +86,7 @@
 
                 </ul>
                 <p class="copyright text-muted">
-                Friends: <a target="_blank" href="http://cybeird.tk">Cybeird</a> <a target="_blank" href="http://soyjuice.tk">Soyjuice</a> <a target="_blank" href="http://blog.csdn.net/janis_z">Janis</a> <a target="_blank" href="http://blog.csdn.net/coolkid_cwm">Coolkid</a> <a target="_blank" href="http://blog.csdn.net/qq_34004420">zzx</a> <a target="_blank" href="http://blog.csdn.net/c_lyr">cl</a> 
+                Friends: <a target="_blank" href="http://cybeird.tk">Cybeird</a> <a target="_blank" href="http://soyjuice.tk">Soyjuice</a> <a target="_blank" href="http://blog.csdn.net/janis_z">Janis</a> <a target="_blank" href="http://blog.csdn.net/coolkid_cwm">Coolkid</a> <a target="_blank" href="http://blog.csdn.net/qq_34004420">zzx</a> <a target="_blank" href="http://blog.csdn.net/c_lyr">cl</a> <a target="_blank" href="http://s2.ltmcpe.cn/gyx/">Tabing</a> 
                 </p>
                 <p class="copyright text-muted">
                 &copy; {{ site.time | date: '%Y' }} {{ site.owner.name }} ❖ Powered by Jekyll. ❖ DNS by DNSpod ❖ Forked from CnFeat.
@@ -125,23 +125,10 @@ line-height:25px;
 
 <!-- smooth-scroll -->
 <script src="{{ "/js/smooth-scroll.min.js " | prepend: site.baseurl }}"></script>
+<script type="text/javascript">smoothScroll.init();</script>
 
 <!-- canvas-nest -->
 <script src="{{ "/js/canvas-nest.min.js " | prepend: site.baseurl }}"></script>
-
-<!-- jquery.tagcloud.js -->
-<script>
-    // only load tagcloud.js in tag.html
-    if($('#tag_cloud').length !== 0){
-        async('{{ "/js/jquery.tagcloud.js" | prepend: site.baseurl }}',function(){
-            $.fn.tagcloud.defaults = {
-                //size: {start: 1, end: 1, unit: 'em'},
-                color: {start: '#bbbbee', end: '#0085a1'},
-            };
-            $('#tag_cloud a').tagcloud();
-        })
-    }
-</script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>

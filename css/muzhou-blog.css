@@ -6,6 +6,12 @@
 	padding-top: 3px;
 	margin: 20px;
 }
+#toc{
+	font-size: 14px;
+}
+.toc a{
+	font-size: 90%;
+}
 /* loading begin */
 #loading{
   background-color: #bd4932;

@@ -4,9 +4,43 @@ title: "网站历史"
 description: "我从建站中学到了很多"
 ---
 
-我Fork了原作者的仓库, 未来这里将是我的领地  
-
 ***  
+
+**下次更新将修复IE浏览器的BUG**  
+
+***
+
+2016-10-27更新  
+
+加入 canvas-nest 背景效果, 好看, 好玩  
+加入一批新的 css, 主要是字体方面, 还略有 BUG  
+
+***
+
+2016-10-26更新  
+
+本页标题更换为: 历史  
+我发现了 [Hux](https://huangxuan.me/) 的分支, 感谢他制作的 css 样式  
+
+***
+
+2016-10-22更新  
+
+对网页进行响应式优化，更改集中在导航栏：  
+1. 加入 bootstrap 的 affix 功能  
+2. 在窄页面下自动隐藏  
+
+***
+
+2016-10-20更新  
+
+本博客的国内访问已转移至 [coding](coding.net) 的仓库，来加快访问速度，你也可以选择访问由 [github](mu-zhou.github.io) 托管的网站或直接访问 [github](https://github.com/Mu-Zhou/mu-zhou.github.io)|[coding](https://coding.net/u/muzhou/p/blog/git) 仓库  
+
+本博已经在源仓库的基础上加入新的内容：  
+1. loading 动画，如果你没有发现的话，你一定发现了一个一闪而过的小方块  
+2. 侧栏导航栏，如果它身上出现了鬼畜的事情，请原谅我一个弱弱的现学 HTML+CSS+JavaScript+JQuery 现用的人吧，我已经尽力了  
+
+***
 
 2016-10-17更新  
 总结一下我是如何建立这个网站的:  
@@ -21,34 +55,4 @@ description: "我从建站中学到了很多"
 
 ***
 
-2016-10-20更新  
-
-本博客的国内访问已转移至 [coding](coding.net) 的仓库，来加快访问速度，你也可以选择访问由 [github](mu-zhou.github.io) 托管的网站或直接访问 [github](https://github.com/Mu-Zhou/mu-zhou.github.io)|[coding](https://coding.net/u/muzhou/p/blog/git) 仓库  
-
-本博已经在源仓库的基础上加入新的内容：  
-1. loading 动画，如果你没有发现的话，你一定发现了一个一闪而过的小方块  
-2. 侧栏导航栏，如果它身上出现了鬼畜的事情，请原谅我一个弱弱的现学 HTML+CSS+JavaScript+JQuery 现用的人吧，我已经尽力了  
-
-***
-
-2016-10-22更新  
-
-对网页进行响应式优化，更改集中在导航栏：  
-1. 加入 bootstrap 的 affix 功能  
-2. 在窄页面下自动隐藏  
-
-***
-
-2016-10-26更新  
-
-本页标题更换为: 历史  
-我发现了 [Hux](https://huangxuan.me/) 的分支, 感谢他制作的 css 样式  
-
-***
-
-2016-10-27更新  
-
-加入 canvas-nest 背景效果, 好看, 好玩  
-加入一批新的 css, 主要是字体方面, 还略有 BUG  
-
-**下次更新将修复IE浏览器的BUG**  
+我Fork了原作者的仓库, 未来这里将是我的领地  

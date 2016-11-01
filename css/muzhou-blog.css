@@ -2,12 +2,25 @@
 	height: 200px;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.22), 0 7px 28px rgba(0, 0, 0, 0.25);
 }
-pre{
+pre{/* code line */
+	max-height: 500px;
 	box-shadow: 0 5px 7px rgba(0, 0, 0, 0.22), 0 7px 14px rgba(0, 0, 0, 0.25);
 }
 .table-responsive{
 	box-shadow: 0 5px 7px rgba(0, 0, 0, 0.22), 0 7px 28px rgba(0, 0, 0, 0.25);
 }
+
+#nav{
+	z-index: 10;
+}
+.affix-top {
+    position: relative;
+    width: 500%;
+}
+.affix {
+    top: 10%;
+}
+
 #post-list-in{
 	padding-top: 3px;
 	margin: 20px;

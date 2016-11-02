@@ -9,7 +9,7 @@
 	      listType: 'ol', // values: [ol|ul]
 	      showEffect: 'show', // values: [show|slideDown|fadeIn|none]
 	      showSpeed: 'slow', // set to 0 to deactivate effect
-	      classes: { list: '',
+	      classes: { list: 'nav',
 	                 item: ''
 	               }
 	    },

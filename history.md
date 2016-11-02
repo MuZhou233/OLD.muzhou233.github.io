@@ -14,6 +14,7 @@ description: "我从建站中学到了很多"
 
 终于解决了侧栏导航的问题, 感谢 [Wei Heng](http://t.hengwei.me/me.html) 的 css 样式  
 顺便更换了 markdown 解析器  
+添加了一个二维码  
 
 ***
 

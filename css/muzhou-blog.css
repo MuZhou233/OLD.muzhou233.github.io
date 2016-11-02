@@ -34,7 +34,10 @@ pre{/* code line */
 ul{
 	font-size: 120%;
 }
-
+.post-container a,
+.copyright a{
+	color: #337ab7 !important;
+}
 /* copyed from http://t.hengwei.me thanks 
  * Bootstrap Table of Contents v<%= version %> (http://afeld.github.io/bootstrap-toc/)
  * Copyright 2015 Aidan Feldman

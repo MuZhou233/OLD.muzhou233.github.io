@@ -117,13 +117,8 @@ height:25px;
 line-height:25px;
 }</style>
 
-<!-- jQuery -->
-<script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
-
 <!-- toc -->
 <script src="{{ "/js/jekyll-table-of-contents.js " | prepend: site.baseurl }}"></script>
-
-<script src="{{ "/js/muzhou-blog.js " | prepend: site.baseurl }}"></script>
 
 <!-- smooth-scroll -->
 <script src="{{ "/js/smooth-scroll.min.js " | prepend: site.baseurl }}"></script>
@@ -161,26 +156,9 @@ $(document).ready(function() {
 }); </script>
 
 <!-- Highlight.js -->
+<link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
 <script>
     async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js",function(){
         hljs.initHighlightingOnLoad();
     })
 </script>
-<link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
-
-<!-- baidu search -->
-<script>
-(function(){
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
-    }
-    else {
-        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-    }
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
-})();
-</script>
-

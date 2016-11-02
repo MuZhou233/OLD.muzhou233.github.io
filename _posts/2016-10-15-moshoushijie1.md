@@ -7,11 +7,12 @@ tags: [oi]
 description: 
 ---
 
-#魔兽世界之一：备战[cxsjsx.openjudge.com][1]
--总时间限制: 1000ms
--内存限制: 65536kB  
+# 魔兽世界之一：备战[cxsjsx.openjudge.com][1]
+
+- 总时间限制: 1000ms
+- 内存限制: 65536kB
   
-#描述
+# 描述
 
 魔兽世界的西面是红魔军的司令部，东面是蓝魔军的司令部。两个司令部之间是依次排列的若干城市。
 红司令部，City 1，City 2，……，City n，蓝司令部
@@ -50,7 +51,9 @@ description:
 首先按时间顺序输出；
 
 同一时间发生的事件，先输出红司令部的，再输出蓝司令部的。  
-#输入
+
+# 输入
+
 第一行是一个整数，代表测试数据组数。
 
 每组测试数据共两行。
@@ -58,17 +61,20 @@ description:
 第一行：一个整数M。其含义为， 每个司令部一开始都有M个生命元( 1 <= M <= 10000)。
 
 第二行：五个整数，依次是 dragon 、ninja、iceman、lion、wolf 的初始生命值。它们都大于0小于等于10000。  
-#输出
+
+# 输出
+
 对每组测试数据，要求输出从0时0分开始，到双方司令部都停止制造武士为止的所有事件。
 对每组测试数据，首先输出"Case:n" n是测试数据的编号，从1开始 。
 接下来按恰当的顺序和格式输出所有事件。每个事件都以事件发生的时间开头，时间以小时为单位，有三位。  
-##样例输入
+
+## 样例输入
 
 1
 20
 3 4 5 6 7
 
-##样例输出
+## 样例输出
 
 Case:1  
 000 red iceman 1 born with strength 5,1 iceman in red headquarter  
@@ -80,14 +86,20 @@ Case:1
 003 red headquarter stops making warriors  
 003 blue iceman 4 born with strength 5,1 iceman in blue headquarter  
 004 blue headquarter stops making warriors  
-#题目分析
+
+# 题目分析
+
 按照题目模拟操作，主要考察代码能力   
-#代码实现
+
+# 代码实现
+
 作为竞赛选手，我打了一些不像工程不像竞赛的代码，之后还有两道扩展题需要做，希望我不会死
 我的写代码过程：  
+
 1. 按照题目随心写  
 2. Compile 更正语法错误  
 3. debug 把代码改正确  
+
 然后我就第一次浅显地体会到了如何维持代码可扩展
 
 ---
@@ -208,6 +220,7 @@ return 0;
 ```
 ---
 后面还要改一些内容来支持后两道题的扩展需求
+
 [1]:http://cxsjsx.openjudge.cn/2015warpractice/A/
 
 

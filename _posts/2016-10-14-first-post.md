@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello, Github!
-date: 2016-10-15
+date: 2016-10-14
 categories: blog
 tags: [blog]
 description: 

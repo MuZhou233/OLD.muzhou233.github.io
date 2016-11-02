@@ -25,11 +25,18 @@ zhihu_username: mu-zhou-55
 
 # Build settings  
 # use Github Flavored Markdown !important  
-# document: http://jekyllrb.com/docs/configuration/#kramdown  
-markdown: rdiscount
-rdiscount:
-  extensions:
-    - generate_toc
+# document: http://jekyllrb.com/docs/configuration/#kramdown 
+
+#another choice
+#markdown: rdiscount
+#rdiscount:
+#  extensions:
+#    - generate_toc
+
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
 highlighter: rouge
 permalink: pretty
 paginate: 8

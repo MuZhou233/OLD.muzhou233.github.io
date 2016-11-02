@@ -6,7 +6,7 @@ categories: blog
 tags: [linux]
 description: 
 ---
-此应用集意在记录我这段时间多次重复安装配置ubuntu的一点经验  
+此应用集意在记录我这段时间多次重复安装配置ubuntu的一点经验
 **注:**
 **本人使用的环境为 ubuntu12.04LTS 桌面环境为默认的 unity,虽然版本较老 但比较稳定**
 **本文中使用的 apt-fast 命令在我的另一篇博客中提到,如果没有安装请改为 apt-get**
@@ -17,15 +17,15 @@ description:
 - Sogou-input
 - Lantern
 
-#Firefox
+# Firefox
 
 系统自带,但是要单独开一篇
 
-#Thunderbird
+# Thunderbird
 
 系统自带,兼容主流电子邮件服务商
 
-#QQ
+# QQ
 
 **这里讨论基于 wine 的 QQ**
 
@@ -54,7 +54,7 @@ Step 3:解压压缩包并安装
 	
 	sudo apt-get upgrade -f
 
-#Sogou-input
+# Sogou-input
 
 **搜狗官方提供下载及说明文档,比较良心,不像某讯**
 
@@ -62,7 +62,7 @@ Step 3:解压压缩包并安装
 
 *需要先安装fcitx,但是有官方教程,在此不再赘述*
 
-#Lantern
+# Lantern
 
 [官方](https://GetLantern.org/)提供linux版本维护,但是有GFW的照顾,你还是去[github](https://github.com/getlantern/lantern-binaries)比较好
 

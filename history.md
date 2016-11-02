@@ -10,6 +10,13 @@ description: "我从建站中学到了很多"
 
 ***
 
+2016-11-02更新  
+
+终于解决了侧栏导航的问题, 感谢 [Wei Heng](http://t.hengwei.me/me.html) 的 css 样式  
+顺便更换了 markdown 解析器  
+
+***
+
 2016-11-01更新  
 
 本博客的地址已经更换为 muzhou.tech  

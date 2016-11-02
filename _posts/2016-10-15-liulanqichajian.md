@@ -12,7 +12,7 @@ description:
 - Stylish  
 - Greasemonkey  
 
-#uBlock-Origin  
+# uBlock-Origin  
 
 强大的开源去广告插件,安装后需要打开控制面板并更新过滤规则  
 
@@ -20,7 +20,7 @@ description:
 
 *有人也喜欢用 adblock-plus,但是我更倾向于它*  
 
-#Stylish  
+# Stylish  
 
 使用自定义的 css 语句修改网页,可以让网页变成自己喜欢的样子  
 
@@ -40,7 +40,7 @@ description:
 [更改难看的官网的样式](https://userstyles.org/styles/browse?category=userstyles.org)  
 [为浏览器编写的样式,注意:这是个坑](https://userstyles.org/styles/browse?category=userstyles.org)  
 
-#Greasemonkey  
+# Greasemonkey  
 
 使用脚本直接修改网页,上一个是美化脚本,这个是功能性脚本  
 

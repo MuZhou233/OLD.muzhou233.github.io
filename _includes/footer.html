@@ -88,8 +88,10 @@
                 <p class="copyright text-muted">
                 Friends: <a target="_blank" href="http://cybeird.tk">Cybeird</a> <a target="_blank" href="http://soyjuice.tk">Soyjuice</a> <a target="_blank" href="http://blog.csdn.net/janis_z">Janis</a> <a target="_blank" href="http://blog.csdn.net/coolkid_cwm">Coolkid</a> <a target="_blank" href="http://blog.csdn.net/qq_34004420">zzx</a> <a target="_blank" href="http://blog.csdn.net/c_lyr">cl</a> <a target="_blank" href="http://s2.ltmcpe.cn/gyx/">Tabing</a> 
                 </p>
+
                 <p class="copyright text-muted">
                 &copy; {{ site.time | date: '%Y' }} {{ site.owner.name }} ❖ Powered by Jekyll. ❖ DNS by DNSpod ❖ Forked from CnFeat.
+                <div id="google_translate_element"></div>
                 </p>
             </div>
 			<div id="countdown" class="hidden-xs">
@@ -148,6 +150,14 @@ document.getElementById("t_s").innerHTML = s + "秒";
 } 
 setInterval(getRTime,1000); 
 </script> 
+
+<!-- google translate -->
+<script type="text/javascript">
+function googleTranslateElementInit() {
+	new google.translate.TranslateElement({pageLanguage: 'zh-CN', layout: 		google.translate.TranslateElement.InlineLayout.SIMPLE, multilanguagePage: true}, 'google_translate_element');
+}
+</script>
+<script src="{{ "/js/google-translate.js " | prepend: site.baseurl }}"></script>
 
 <!-- baidu push -->
 <script>

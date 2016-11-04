@@ -156,6 +156,9 @@ setInterval(getRTime,1000);
 function googleTranslateElementInit() {
 	new google.translate.TranslateElement({pageLanguage: 'zh-CN', layout: 		google.translate.TranslateElement.InlineLayout.SIMPLE, multilanguagePage: true}, 'google_translate_element');
 }
+function googleTranslateElementInit() {
+	new google.translate.TranslateElement({pageLanguage: 'zh-CN', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT, multilanguagePage: true}, 'google_translate_element');
+}
 </script>
 <script src="{{ "/js/google-translate.js " | prepend: site.baseurl }}"></script>
 

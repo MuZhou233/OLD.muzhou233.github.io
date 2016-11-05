@@ -3,7 +3,7 @@ layout: post
 title: 浏览器插件总结
 date: 2016-10-15
 categories: blog
-tags: [linux]
+tags: [firefox]
 description: 
 ---
 在这里总结我最喜欢的浏览器插件,他们兼容于主流浏览器  

@@ -3,7 +3,7 @@ layout: post
 title: ubuntu下神奇的多线程apt-get
 date: 2016-10-15
 categories: blog
-tags: [linux]
+tags: [linux,转载]
 description: 
 ---
 

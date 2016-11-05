@@ -3,7 +3,7 @@ layout: post
 title: 浅谈线段树(转载)
 date: 2016-10-21
 categories: blog
-tags: [oi]
+tags: [oi,转载]
 description:
 ---
 

@@ -2,6 +2,35 @@
 <footer>
     <div class="container">
         <div class="row">
+        	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 sidebar-container">
+        		<!-- Featured Tags -->
+                {% if site.featured-tags %}
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+        				{% for tag in site.tags %}
+                            {% if tag[1].size > {{site.featured-condition-size}} %}
+                				<a href="/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
+                                    {{ tag[0] }}
+                                </a>
+                            {% endif %}
+        				{% endfor %}
+        			</div>
+                </section>
+                {% endif %}
+                
+				<!-- Friends Blog -->
+                {% if site.friends %}
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
+                    {% for friend in site.friends %}
+     	     	         <li><a href="{{friend.href}}">{{friend.title}}</a></li>
+          		      {% endfor %}
+            	</ul>
+            	{% endif %}
+            </div>
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
                     <!-- kill the Facebook and Weibo -->
@@ -85,10 +114,11 @@
                     -->
 
                 </ul>
+                <!--
                 <p class="copyright text-muted">
                 Friends: <a target="_blank" href="http://cybeird.tk">Cybeird</a> <a target="_blank" href="http://soyjuice.tk">Soyjuice</a> <a target="_blank" href="http://blog.csdn.net/janis_z">Janis</a> <a target="_blank" href="http://blog.csdn.net/coolkid_cwm">Coolkid</a> <a target="_blank" href="http://blog.csdn.net/qq_34004420">zzx</a> <a target="_blank" href="http://blog.csdn.net/c_lyr">cl</a> <a target="_blank" href="http://s2.ltmcpe.cn/gyx/">Tabing</a> 
                 </p>
-
+				-->
                 <p class="copyright text-muted">
                 &copy; {{ site.time | date: '%Y' }} {{ site.owner.name }} ❖ Powered by Jekyll. ❖ DNS by DNSpod ❖ Forked from CnFeat.
                 <div id="google_translate_element"></div>

@@ -27,12 +27,6 @@ zhihu_username: mu-zhou-55
 # use Github Flavored Markdown !important  
 # document: http://jekyllrb.com/docs/configuration/#kramdown 
 
-#another choice
-#markdown: rdiscount
-#rdiscount:
-#  extensions:
-#    - generate_toc
-
 markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
@@ -74,3 +68,33 @@ bing_verify:
 
 # Gems
 gems: [jekyll-paginate]
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 2              # A tag will be featured if the size of it is more than this condition value
+
+# Friends
+friends: [
+    {
+        title: "Cybeird",
+        href: "http://cybeird.tk/"
+    },{
+        title: "Soyjuice",
+        href: "http://soyjuice.tk/"
+    },{
+        title: "Janis",
+        href: "http://blog.csdn.net/janis_z/"
+    },{
+        title: "Coolkid",
+        href: "http://blog.csdn.net/coolkid_cwm/"
+    },{
+        title: "zzx",
+        href: "http://blog.csdn.net/qq_34004420/"
+    },{
+        title: "cl",
+        href: "http://blog.csdn.net/c_lyr/"
+    },{
+        title: "Tabing",
+        href: "http://s2.ltmcpe.cn/gyx/"
+    }
+]

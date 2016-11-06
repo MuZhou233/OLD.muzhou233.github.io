@@ -15,6 +15,7 @@ description: "我从建站中学到了很多"
 添加谷歌翻译引擎, 需要科学使用  
 添加页尾的 FEATURED TAGS, 更好的友链, 感谢 [Hux](http://huangxuan.me/)  
 **添加 HTTPS 加密协议**, 不支持旧版浏览器, 暂时保留 HTTP 协议  
+加入评论功能  
 
 ***
 

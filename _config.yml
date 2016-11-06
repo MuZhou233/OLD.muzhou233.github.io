@@ -51,13 +51,10 @@ defaults:
       author: "MuZhou"
       header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
 
-# Comments 
-comments :
-  provider : duoshuo
-  duoshuo :
-    short_name : 
-  disqus :
-      short_name : 
+# Duoshuo settings
+duoshuo_username: muzhou
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: false                     # set to false if you want to use Comment without Sharing
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: 

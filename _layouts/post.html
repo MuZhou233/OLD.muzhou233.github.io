@@ -39,16 +39,6 @@ layout: default
 jQuery('#qrcode').qrcode({width: 128,height: 128,text: "{{ site.url }}{{ page.url }}"});
 </script>
 
-<style>
-#qrcode-block{
-	position: relative;
-	left: 1000px;
-	top: -300px;
-	height: 128px;
-	width: 128px;
-}
-</style>
-
 <!-- Post Content -->
 <article>
 <div id="maintest" class="col-md-9">
@@ -136,8 +126,8 @@ var duoshuoQuery = {short_name:"cnfeat"};
 </script>
 <!-- 多说公共JS代码 end -->
 
-<!-- async load function -->
 <script>
+/* async load function */
     function async(u, c) {
       var d = document, t = 'script',
           o = d.createElement(t),
@@ -146,10 +136,7 @@ var duoshuoQuery = {short_name:"cnfeat"};
       if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
       s.parentNode.insertBefore(o, s);
     }
-</script>
-
-<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
-<script>
+/* anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ */
     async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
         anchors.options = {
           visible: 'always',
@@ -157,6 +144,10 @@ var duoshuoQuery = {short_name:"cnfeat"};
           icon: '#'
         };
         anchors.add().remove('.intro-header h1').remove('.subheading');
+    })
+/* Highlight.js */
+    async("http://cdn.bootcss.com/highlight.js/9.7.0/highlight.min.js",function(){
+        hljs.initHighlightingOnLoad();
     })
 </script>
 <style>
@@ -171,11 +162,6 @@ var duoshuoQuery = {short_name:"cnfeat"};
     }
 </style>
 
-<!-- Highlight.js -->
+<!-- Highlight.css -->
 <!--link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet"-->
 <!--link href="http://cdn.bootcss.com/highlight.js/9.7.0/styles/googlecode.min.css" rel="stylesheet"-->  
-<script>
-    async("http://cdn.bootcss.com/highlight.js/9.7.0/highlight.min.js",function(){
-        hljs.initHighlightingOnLoad();
-    })
-</script>

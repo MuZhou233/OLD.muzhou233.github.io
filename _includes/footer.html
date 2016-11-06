@@ -6,8 +6,7 @@
         		<!-- Featured Tags -->
                 {% if site.featured-tags %}{% if page.url != '/tags/' %}
                 <section>
-                    <hr class="hidden-sm hidden-xs">
-                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <p><a href="/tags/">FEATURED TAGS</a></p>
                     <div class="tags">
         				{% for tag in site.tags %}
                             {% if tag[1].size > {{site.featured-condition-size}} %}
@@ -22,8 +21,8 @@
                 
 				<!-- Friends Blog -->
                 {% if site.friends %}
-                <hr>
-                <h5>FRIENDS</h5>
+                <hr class="hidden-sm hidden-xs">
+                <p>FRIENDS</p>
                 <ul class="list-inline">
                     {% for friend in site.friends %}
      	     	         <li><a target="_blank" href="{{friend.href}}">{{friend.title}}</a></li>
@@ -138,6 +137,18 @@
         </div>
     </div>
 </footer>
+
+<style>
+#countdown{
+	position:fixed;
+	font-size:25;
+	top:78%;
+	left:80%;
+	width:20%;
+	height:25px;
+	line-height:25px;
+}
+</style>
 
 <!-- toc -->
 <script src="{{ "/js/jekyll-table-of-contents.js " | prepend: site.baseurl }}"></script>

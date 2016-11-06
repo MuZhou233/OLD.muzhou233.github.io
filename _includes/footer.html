@@ -31,6 +31,7 @@
             	</ul>
             	{% endif %}
             </div>
+            
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
                     <!-- kill the Facebook and Weibo -->
@@ -120,7 +121,7 @@
                 </p>
 				-->
                 <p class="copyright text-muted">
-                &copy; {{ site.time | date: '%Y' }} {{ site.owner.name }} ❖ Powered by Jekyll. ❖ DNS by DNSpod ❖ Forked from CnFeat.
+                &copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. ❖ Powered by Jekyll. ❖ Forked from CnFeat and Hux.
                 <div id="google_translate_element"></div>
                 </p>
             </div>
@@ -138,19 +139,12 @@
     </div>
 </footer>
 
-<style type="text/css">
-#countdown{
-position:fixed;
-font-size:25;
-top:78%;
-left:80%;
-width:20%;
-height:25px;
-line-height:25px;
-}</style>
-
 <!-- toc -->
 <script src="{{ "/js/jekyll-table-of-contents.js " | prepend: site.baseurl }}"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#toc').toc();
+}); </script>
 
 <!-- smooth-scroll -->
 <script src="{{ "/js/smooth-scroll.min.js " | prepend: site.baseurl }}"></script>
@@ -208,8 +202,3 @@ function googleTranslateElementInit() {
 })();
 </script>
 
-<!-- toc -->
-<script type="text/javascript">
-$(document).ready(function() {
-    $('#toc').toc();
-}); </script>

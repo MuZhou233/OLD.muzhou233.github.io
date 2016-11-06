@@ -43,24 +43,6 @@ pre{/* code line */
 	color: #337ab7 !important;
 }
 
-#countdown{
-	position:fixed;
-	font-size:25;
-	top:78%;
-	left:80%;
-	width:20%;
-	height:25px;
-	line-height:25px;
-}
-
-#qrcode-block{
-	position: relative;
-	left: 1000px;
-	top: -300px;
-	height: 128px;
-	width: 128px;
-}
-
 /* copyed from http://t.hengwei.me thanks 
  * Bootstrap Table of Contents v<%= version %> (http://afeld.github.io/bootstrap-toc/)
  * Copyright 2015 Aidan Feldman
@@ -123,7 +105,7 @@ nav[data-toggle='toc'] .nav > .active > ol {
 }
 /* nav end*/
 
-/* copyed from hux-blog */
+/* copyed from hux-blog with some change*/
 @media (min-width: 1200px) {
   .post-container,
   .sidebar-container {
@@ -139,11 +121,11 @@ nav[data-toggle='toc'] .nav > .active > ol {
   color: #bfbfbf;
   font-size: 14px;
 }
-.sidebar-container h5 {
+.sidebar-container p {
   color: #808080;
   padding-bottom: 1em;
 }
-.sidebar-container h5 a {
+.sidebar-container p a {
   color: #808080 !important;
   text-decoration: none;
 }

@@ -10,7 +10,15 @@ description: "我从建站中学到了很多"
 
 ***
 
-2016-11-02更新  
+### 2016-11-06更新  
+
+添加谷歌翻译引擎, 需要科学使用  
+添加页尾的 FEATURED TAGS, 更好的友链, 感谢 [Hux](http://huangxuan.me/)  
+**添加 HTTPS 加密协议**, 不支持旧版浏览器, 暂时保留 HTTP 协议  
+
+***
+
+### 2016-11-02更新  
 
 终于解决了侧栏导航的问题, 感谢 [Wei Heng](http://t.hengwei.me/me.html) 的 css 样式  
 顺便更换了 markdown 解析器  
@@ -19,7 +27,7 @@ description: "我从建站中学到了很多"
 
 ***
 
-2016-11-01更新  
+### 2016-11-01更新  
 
 本博客的地址已经更换为 muzhou.tech  
 顺便改了改 css  
@@ -27,21 +35,21 @@ description: "我从建站中学到了很多"
 
 ***
 
-2016-10-27更新  
+### 2016-10-27更新  
 
 加入 canvas-nest 背景效果, 好看, 好玩  
 加入一批新的 css, 主要是字体方面, 还略有 BUG  
 
 ***
 
-2016-10-26更新  
+### 2016-10-26更新  
 
 本页标题更换为: 历史  
-我发现了 [Hux](https://huangxuan.me/) 的分支, 感谢他制作的 css 样式  
+我发现了 [Hux](http://huangxuan.me/) 的分支, 感谢他制作的 css 样式  
 
 ***
 
-2016-10-22更新  
+### 2016-10-22更新  
 
 对网页进行响应式优化，更改集中在导航栏：  
 1. 加入 bootstrap 的 affix 功能  
@@ -49,7 +57,7 @@ description: "我从建站中学到了很多"
 
 ***
 
-2016-10-20更新  
+### 2016-10-20更新  
 
 本博客的国内访问已转移至 [coding](coding.net) 的仓库，来加快访问速度，你也可以选择访问由 [github](mu-zhou.github.io) 托管的网站或直接访问 [github](https://github.com/Mu-Zhou/mu-zhou.github.io) [coding](https://coding.net/u/muzhou/p/blog/git) 仓库  
 
@@ -59,7 +67,8 @@ description: "我从建站中学到了很多"
 
 ***
 
-2016-10-17更新  
+### 2016-10-17更新  
+
 总结一下我是如何建立这个网站的:  
 
 1. 最开始是受到 [rapiz](http://rapiz.cf/wei-shi-yao-ben-bo-zhe-yao-kuai-ni.html) 的启发，决定转移 CSDN 的博客，自己建立一个博客   

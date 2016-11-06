@@ -38,6 +38,15 @@ layout: default
 <script>
 jQuery('#qrcode').qrcode({width: 128,height: 128,text: "{{ site.url }}{{ page.url }}"});
 </script>
+<style>
+#qrcode-block{
+	position: relative;
+	left: 1000px;
+	top: -300px;
+	height: 128px;
+	width: 128px;
+}
+</style>
 
 <!-- Post Content -->
 <article>

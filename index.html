@@ -3,6 +3,22 @@ layout: page
 description: "I am a Student, I will always be a Student"
 ---
 
+<!-- toppost -->
+<div id="post-list">
+<div id="post-list-in" class="post-preview">
+    <a href="/topposts/">
+        <h2 class="post-title">            
+            [TOP]博主推荐
+        </h2>
+        <div class="post-content-preview">
+            你可以先看看这些
+        </div>
+    </a>
+    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %}</p>
+</div>
+</div>
+<hr>
+
 {% for post in paginator.posts %}
 <div id="post-list">
 <div id="post-list-in" class="post-preview">
@@ -22,7 +38,6 @@ description: "I am a Student, I will always be a Student"
     <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
 </div>
-
 <hr>
 {% endfor %}
 

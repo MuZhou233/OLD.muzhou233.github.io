@@ -150,7 +150,7 @@ jQuery('#qrcode').qrcode({width: 128,height: 128,text: "{{ site.url }}{{ page.ur
         if(typeof i == "undefined")i = 1;
         return "head"+i++;
     }
-    $(".content :header").attr("id",count);
+    $(":header").attr("id",count);
 /* Highlight.js */
     async("http://cdn.bootcss.com/highlight.js/9.7.0/highlight.min.js",function(){
         hljs.initHighlightingOnLoad();

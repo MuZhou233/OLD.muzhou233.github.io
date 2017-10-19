@@ -140,12 +140,17 @@ jQuery('#qrcode').qrcode({width: 128,height: 128,text: "{{ site.url }}{{ page.ur
 /* anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ */
     async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
         anchors.options = {
-          visible: 'always',
+          visible: 'hover',
           placement: 'right',
           icon: '#'
         };
         anchors.add().remove('.intro-header h1').remove('.subheading');
     })
+    function count(){
+        if(typeof i == "undefined")i = 1;
+        return "head"+i++;
+    }
+    $(".content :header").attr("id",count);
 /* Highlight.js */
     async("http://cdn.bootcss.com/highlight.js/9.7.0/highlight.min.js",function(){
         hljs.initHighlightingOnLoad();

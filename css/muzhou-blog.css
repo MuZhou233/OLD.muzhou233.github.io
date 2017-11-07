@@ -277,7 +277,7 @@ nav[data-toggle='toc'] .nav > .active > ol {
   display: none;
 }
 .side-catalog .catalog-toggle::before {
-  content: "−";
+  content: "??";
   position: relative;
   margin-right: 5px;
   bottom: 1px;
@@ -610,7 +610,7 @@ pre code {
   line-height: 1.7;
 }
 .navbar-custom .navbar-brand {
-  font-weight: 800;
+  /*font-weight: 800;*/
   color: white;
   height: 56px;
   line-height: 25px;

@@ -55,93 +55,9 @@ pre{/* code line */
 	text-decoration:underline;
 }
 
-/* duoshuo start */
-/*总体框架*/
-#ds-thread #ds-reset .ds-textarea-wrapper {border-radius: 5px 5px 0 0;min-height: 40px;border: 1px solid #cfcfcf;}
-#ds-thread #ds-reset .ds-replybox{padding: 0 0 0 80px !important;box-shadow: none;}
-#ds-thread .ds-avatar img { margin: 2px 0 0 2px }
-#ds-thread #ds-reset ul.ds-children .ds-replybox.ds-inline-replybox a.ds-avatar, #ds-reset .ds-replybox.ds-inline-replybox a.ds-avatar { left: 0; top: 0; padding: 0; width: 48px !important; height: 48px !important; background: none; box-shadow: none; }
-#ds-reset .ds-replybox.ds-inline-replybox a.ds-avatar img { width: 48px !important; height: 48px !important; border-radius: 50%; }
-#ds-reset .ds-replybox a.ds-avatar, #ds-reset .ds-replybox .ds-avatar img { padding: 0; width: 50px !important; height: 50px !important; border-radius: 5px; }
-#ds-thread #ds-reset .ds-post-options {border: 1px solid #F7F7F7;border-radius: 0 0 5px 5px;}
-/*评论框背景色*/
-#ds-thread #ds-reset .ds-textarea-wrapper textarea, #ds-thread #ds-reset .ds-textarea-wrapper .ds-hidden-text {min-height: 40px;background: #cfcfcf;}
-#ds-thread #ds-reset .ds-textarea-wrapper textarea:focus {color: #000000;}
-/*发布按钮*/
-#ds-thread #ds-reset .ds-post-button {font-weight: normal;font-size: 12px;text-shadow: none;border: 0;line-height: 23px;width: 57px;background: #00a3cf;color:#fff;width: 100px;border-radius: 0 0 5px 0;}
-/*  评论内容CSS代码 */
-#ds-reset .ds-avatar img { width: 48px !important; height: 48px !important; border-radius: 48px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.22); -webkit-transition: .8s all ease-in-out; -moz-transition: .4s all ease-in-out; -o-transition: .4s all ease-in-out; -ms-transition: .4s all ease-in-out; transition: .4s all ease-in-out; }
-#ds-reset .ds-avatar img:hover {box-shadow: 0 0 10px #fff;/*transform: rotateZ(360deg);-webkit-transform: rotateZ(360deg);-moz-transform: rotateZ(360deg);*/}
-/*
-.ds-post-self:hover .ds-avatar img { -webkit-transform: rotateX(360deg); -moz-transform: rotate(360deg); -o-transform: rotate(360deg); -ms-transform: rotate(360deg); transform: rotate(360deg); }
-*/
-#ds-thread #ds-reset .ds-comment-body { -webkit-transition-delay: initial; -webkit-transition-duration: 0.4s; -webkit-transition-property: all; -webkit-transition-timing-function: initial; background: #F7F7F7; padding: 15px 15px 15px 47px; border-radius: 5px; box-shadow: #B8B9B9 0 1px 3px; border: white 1px solid; }
-#ds-thread #ds-reset ul.ds-children .ds-comment-body { padding-left: 15px; }
-#ds-thread #ds-reset .ds-comment-body p { color: #787968 }
-#ds-thread #ds-reset .ds-comments { border-bottom: 0px; }
-#ds-thread #ds-reset .ds-comments a.ds-user-name { font-weight: normal; color: #3D3D3D !important;}
-#ds-thread #ds-reset .ds-comments a.ds-user-name:hover { color: #D32 !important; }
-#ds-thread #ds-reset #ds-bubble { display: none !important }
-#ds-thread #ds-reset #ds-hot-posts { border: 0 }
-#ds-reset #ds-hot-posts .ds-gradient-bg { background: none; }
-#ds-thread #ds-reset .ds-comment-body:hover { background-color: #F1F1F1; -webkit-transition-delay: initial; -webkit-transition-duration: 0.4s; -webkit-transition-property: all; -webkit-transition-timing-function: initial; }
-#ds-recent-comments{padding:5px}
-#ds-reset .ds-gradient-bg {background: #fbfbfb;}
-#ds-notify{background-color: #D54242;-webkit-border-radius: 0;border-radius: 5px;box-shadow: 0;border: 0;}
-#ds-notify #ds-reset a.ds-logo{width: 0;height: 0px;background: none;}
-#ds-notify #ds-reset ul.ds-notify-unread{margin: 0;}
-#ds-notify #ds-reset ul.ds-notify-unread li a{color:#fff;}
-#ds-thread #ds-reset li.ds-post, #ds-thread #ds-reset #ds-hot-posts { overflow: visible }
-/*  评论框下按钮 */
-#ds-thread #ds-reset ul.ds-comments-tabs li.ds-tab a.ds-current { border: 0px; color: #6D6D6B; text-shadow: none; background: #F3F3F3 }
-#ds-thread #ds-reset .ds-highlight { font-family: Microsoft YaHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, Sans-serif; ; font-size: 100%; color: #6D6D6B !important; }
-#ds-thread #ds-reset ul.ds-comments-tabs li.ds-tab a.ds-current:hover { color: #696a52; background: #F2F2F2 }
-#ds-thread #ds-reset a.ds-highlight:hover { color: #696a52 !important; }
-#ds-thread { padding-left: 30px; }
-#ds-thread #ds-reset .ds-post-self { padding: 10px 0 10px 10px; }
-#ds-thread #ds-reset li.ds-post, #ds-thread #ds-reset .ds-post-self { border: 0 !important; }
-#ds-reset .ds-avatar, #ds-thread #ds-reset ul.ds-children .ds-avatar { top: 15px; left: -20px; padding: 0px; width: 50px; height: 50px; box-shadow: -1px 0 1px rgba(0,0,0,.15) inset; border-radius: 46px; background: #FAFAFA; }
-#ds-thread .ds-avatar a { display: inline-block; padding: 1px; width: 48px; height: 48px; border-radius: 50%; background-color: #fff !important }
-/* 自定义 */
-.ds-dialog-footer{
-	display: none;
+.anchorjs-link {
+    transition: all .25s linear;
 }
-#ds-reset .ds-post .ds-avatar {
-	left: -2px;
-}
-@media screen and (max-width: 360px) {
-	.ds-replybox .ds-avatar{
-		display: none;
-	}
-	#ds-reset .ds-replybox form{
-		position: relative;
-		left: -100px;
-		width: 150%;
-		z-index: 1;
-	}
-	#ds-reset .ds-login-buttons{
-		position: relative;
-		left: -30px;
-	}
-	#ds-reset .ds-comments{
-		position: relative;
-		left: -30px;
-		width: 110% !important;
-	}
-	#ds-reset .ds-comments form{
-		position: relative;
-		left: -100px;
-		width: 165%;
-	}
-}
-@media screen and (max-width: 320px) {
-	#ds-reset .ds-comments form{
-		position: relative;
-		left: -100px;
-		width: 200%;
-	}
-}
-/* duoshuo end */
 
 /* copyed from http://t.hengwei.me thanks 
  * Bootstrap Table of Contents v<%= version %> (http://afeld.github.io/bootstrap-toc/)
@@ -433,8 +349,8 @@ pre,
 pre code {
   display: block;
   width: auto;
-  white-space: pre;
-  word-wrap: normal;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 .postlist-container {
   margin-bottom: 15px;

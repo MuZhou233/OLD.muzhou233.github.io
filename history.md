@@ -1,12 +1,23 @@
 ---
 layout: page
-title: "网站历史"
-description: "我从建站中学到了很多"
+title: "关于"
+description: ""
 ---
+
+高三党ing...
+
+预祝noip2017 hyoi再度崛起
+
+
+**以下是开发记录**
 
 ***  
 
 **[置顶]下次更新将修复IE浏览器的BUG**  
+
+### 2017-11-07更新
+
+评论功能回归，感谢[Gitment作者](https://github.com/imsun/gitment)
 
 ### 2017-10-19更新
 

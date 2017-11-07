@@ -6,7 +6,7 @@ $(document).ready(function () {
       $('#loading').fadeIn('fast');
       window.setTimeout(function () {
         window.location.href = jumpurl,
-        500
+        1000
       });
     }
   });
@@ -17,7 +17,7 @@ $(document).ready(function () {
       $('#loading').fadeIn('fast');
       window.setTimeout(function () {
         window.location.href = jumpurl,
-        500
+        1000
       });
     }
   });

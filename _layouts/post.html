@@ -72,6 +72,8 @@ jQuery('#qrcode').qrcode({width: 128,height: 128,text: "{{ site.url }}{{ page.ur
                     {% endif %}
                 </ul>
 
+				<div id="commentcontainer"></div>
+				
                 <!-- Duoshuo Share start 
                 <style>
                     .ds-share{
@@ -126,6 +128,21 @@ jQuery('#qrcode').qrcode({width: 128,height: 128,text: "{{ site.url }}{{ page.ur
         </ul><!-- end of main navigation -->
     </div>
 </article>
+
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: '{{ page.url }}',
+  owner: 'Mu-Zhou',
+  repo: 'mu-zhou.github.io',
+  oauth: {
+    client_id: '9cf9b3a13fd6423935a0',
+    client_secret: 'ff08c5c7a64942d5177948e67b8da1f936bc09f9',
+  },
+})
+gitment.render('commentcontainer')
+</script>
 
 <script>
 /* async load function */

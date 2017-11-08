@@ -22,7 +22,7 @@ twitter_username:
 github_username: mu-zhou
 facebook_username: 
 weibo_username: 
-zhihu_username: mu-zhou-55
+zhihu_username: muzhou233
 
 # Build settings  
 # use Github Flavored Markdown !important  
@@ -52,7 +52,7 @@ defaults:
       header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Duoshuo settings
-duoshuo_username: muzhou
+duoshuo_username: 
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: false                     # set to false if you want to use Comment without Sharing
 

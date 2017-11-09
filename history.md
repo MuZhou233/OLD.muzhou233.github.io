@@ -4,9 +4,11 @@ title: "关于"
 description: ""
 ---
 
-高三党ing...
+高三党ing
 
-预祝noip2017 hyoi再度崛起
+2017-11-9 还有一天NOIP2017 连着两天模拟rank1，药丸...  
+
+预祝noip2017 hyoi再度崛起  
 
 
 # 开发记录

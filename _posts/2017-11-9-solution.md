@@ -124,7 +124,7 @@ int main()
 zkw线段树看起来很像树状数组（不知为什么...  
 zkw线段树通过挖掘二叉树在数组中的特性，找到了一种可以快速定位叶子节点的方法，于是自顶向下的方法被抛弃，转而使用自底向上的方法  
 
-改段求点
+## 改段求点
 
 ```cpp
 #include<cstdio>
@@ -169,7 +169,7 @@ int main()
 }
 ```
 
-改点求段
+## 改点求段
 
 ```cpp
 #include<cstdio>
@@ -216,7 +216,7 @@ int main()
 }
 ```
 
-改段求段
+## 改段求段
 
 ```cpp
 #include<cstdio>
@@ -301,14 +301,10 @@ int main()
     scanf("%d%d",&n,&m);
     build(n);
     for(int i=0;i<m;i++){
-        //for(int i=1;i<=length*2;i++)printf("%2d ",val[i]);puts("");
-        //for(int i=1;i<=length*2;i++)printf("%2d ",sum[i]);puts("");
-        //for(int i=1;i<=length*2;i++)printf("%2d ",len[i]);puts("");
         int t=read(),x=read(),y=read();
-        //scanf("%d%d%d",&t,&x,&y);
         if(t==1){
             ll v;
-            v=read();//cin>>v;
+            v=read();
             add(x,y,v);
         }else printf("%lld\n",query(x,y));
     }

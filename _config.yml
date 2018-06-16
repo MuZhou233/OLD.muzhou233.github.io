@@ -1,32 +1,32 @@
 # Site settings
 title: MuZhou Blog
 header-img: "img/blue.jpg"
-tagline: "cn"  
-description: "我是一个高中生 喜欢linux 喜欢各种技术"  
+tagline: "cn"
+description: "我是一个高中生 喜欢linux 喜欢各种技术"
 keyword: "MuZhou, MuZhou Blog, OIer, noip"
 baseurl: ""
-url: "http://muzhou.tech"  
+url: "http://muzhou.tech"
 
 # About/contact
-owner: 
+owner:
   name: "MuZhou"
   email: MuZhou233@outlook.com
   bio: ""
 
 # Data
-gavatar: 
-favicon: 
+gavatar:
+favicon: favicon.ico
 
-douban_username:  
-twitter_username: 
+douban_username:
+twitter_username:
 github_username: mu-zhou
-facebook_username: 
-weibo_username: 
+facebook_username:
+weibo_username:
 zhihu_username: muzhou233
 
-# Build settings  
-# use Github Flavored Markdown !important  
-# document: http://jekyllrb.com/docs/configuration/#kramdown 
+# Build settings
+# use Github Flavored Markdown !important
+# document: http://jekyllrb.com/docs/configuration/#kramdown
 
 markdown: kramdown
 kramdown:
@@ -43,7 +43,7 @@ timezone: Asia/Shanghai
 # Defaults for posts
 defaults:
   -
-    scope: 
+    scope:
       path: ""
       type: "posts"
     values:
@@ -52,12 +52,12 @@ defaults:
       header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Duoshuo settings
-duoshuo_username: 
+duoshuo_username:
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: false                     # set to false if you want to use Comment without Sharing
 
 # Analytics and webmaster tools stuff goes here
-google_analytics: 
+google_analytics:
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:

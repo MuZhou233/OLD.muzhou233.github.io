@@ -58,7 +58,7 @@ pre{/* code line */
     transition: all .25s linear;
 }
 
-/* copyed from http://t.hengwei.me thanks 
+/* copyed from http://t.hengwei.me thanks
  * Bootstrap Table of Contents v<%= version %> (http://afeld.github.io/bootstrap-toc/)
  * Copyright 2015 Aidan Feldman
  * Licensed under MIT (https://github.com/afeld/bootstrap-toc/blob/gh-pages/LICENSE.md) */
@@ -453,6 +453,15 @@ pre code {
     border-radius: 2px;
     width: 170px;
   }
+
+	/**
+	 *add by MuZhou
+	 */
+	.navbar_right {
+		float: right;
+		width: 170px;
+	}
+
   /**
 	 * Animation
 	 * HuxBlog-Navbar using genuine Material Design Animation

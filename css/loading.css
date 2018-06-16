@@ -1,10 +1,10 @@
 /* loading begin */
 #loading{
-  background-color: #bd4932;
+  background-color: #FFF;
   height: 100%;
   width: 100%;
   position: fixed;
-  z-index: 1;
+  z-index: 999;
   margin-top: 0px;
   top: 0px;
 }
@@ -37,15 +37,15 @@
   50% { -webkit-transform: perspective(160px) rotateY(-180deg); }
   100% { -webkit-transform: perspective(160px) rotateY(-180deg) rotateX(-180deg); }
 }
-  
+
 @keyframes animate {
-  0% { 
+  0% {
     transform: perspective(160px) rotateX(0deg) rotateY(0deg);
-    -webkit-transform: perspective(160px) rotateX(0deg) rotateY(0deg); 
-  } 50% { 
+    -webkit-transform: perspective(160px) rotateX(0deg) rotateY(0deg);
+  } 50% {
     transform: perspective(160px) rotateX(-180deg) rotateY(0deg);
     -webkit-transform: perspective(160px) rotateX(-180deg) rotateY(0deg) ;
-  } 100% { 
+  } 100% {
     transform: perspective(160px) rotateX(-180deg) rotateY(-180deg);
     -webkit-transform: perspective(160px) rotateX(-180deg) rotateY(-180deg);
   }

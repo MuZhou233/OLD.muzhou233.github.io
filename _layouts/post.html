@@ -62,24 +62,24 @@ jQuery('#qrcode').qrcode({width: 128,height: 128,text: "{{ site.url }}{{ page.ur
                 <ul class="pager">
                     {% if page.previous.url %}
                     <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; 上一个博文</a>
                     </li>
                     {% endif %}
                     {% if page.next.url %}
                     <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">下一个博文 &rarr;</a>
                     </li>
                     {% endif %}
                 </ul>
 
 				<div id="commentcontainer"></div>
-				
+
                 <!-- Duoshuo Share start 
                 <style>
                     .ds-share{
                         text-align: right;
                     }
-                    
+
                     @media only screen and (max-width: 700px) {
                         .ds-share {
 
@@ -187,4 +187,4 @@ gitment.render('commentcontainer')
 
 <!-- Highlight.css -->
 <!--link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet"-->
-<!--link href="http://cdn.bootcss.com/highlight.js/9.7.0/styles/googlecode.min.css" rel="stylesheet"-->  
+<!--link href="http://cdn.bootcss.com/highlight.js/9.7.0/styles/googlecode.min.css" rel="stylesheet"-->

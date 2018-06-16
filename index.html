@@ -6,8 +6,8 @@ description: "I am a Student.  I will always be a Student."
 <!-- toppost -->
 <div id="post-list">
 <div id="post-list-in" class="post-preview">
-    <a href="/topposts/">
-        <h2 class="post-title">            
+    <a href="/about/">
+        <h2 class="post-title">
             [TOP]博主有话说
         </h2>
         <div class="post-content-preview" style="font-size:200%">
@@ -23,7 +23,7 @@ description: "I am a Student.  I will always be a Student."
 <div id="post-list">
 <div id="post-list-in" class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            
+        <h2 class="post-title">
             {{ post.title }}
         </h2>
         {% if post.subtitle %}

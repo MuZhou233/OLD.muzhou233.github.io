@@ -18,7 +18,7 @@
         			</div>
                 </section>
                 {% endif %}{% endif %}
-                
+
 				<!-- Friends Blog -->
                 {% if site.friends %}
                 <hr class="hidden-sm hidden-xs">
@@ -63,7 +63,7 @@
                         </a>
                     </li>
                     {% endif %}
-                    
+
                     <!--
                     {% if site.douban_username %}
                     <li>
@@ -119,20 +119,20 @@
                 <div id="google_translate_element"></div>
                 </p>
             </div>
-			<div id="countdown" class="hidden-xs">
+			<!--div id="countdown" class="hidden-xs">
 				<font color="red">警告!</font>距NOIP2018还有
-				<p id="CountMsg" class="HotDate"> 
-				<span id="t_d">00天</span> 
-				<span id="t_h">00时</span> 
-				<span id="t_m">00分</span> 
+				<p id="CountMsg" class="HotDate">
+				<span id="t_d">00天</span>
+				<span id="t_h">00时</span>
+				<span id="t_m">00分</span>
 				<span id="t_s">00秒</span>
-				</p> 
-			</div>
+				</p>
+			</div-->
         </div>
     </div>
 </footer>
 
-<style>
+<!--style>
 #countdown{
 	position:fixed;
 	font-size:25;
@@ -142,7 +142,7 @@
 	height:25px;
 	line-height:25px;
 }
-</style>
+</style-->
 
 <!-- toc -->
 <script src="{{ "/js/jekyll-table-of-contents.js " | prepend: site.baseurl }}"></script>
@@ -162,24 +162,24 @@ $(document).ready(function() {
 <script src="{{ "/js/clean-blog.min.js " | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/muzhou-blog.js " | prepend: site.baseurl }}"></script>
 
-<!-- time down -->
-<script type="text/javascript"> 
-function getRTime(){ 
-var EndTime= new Date('2018/11/11 8:30:00'); //截止时间 
-var NowTime = new Date(); 
-var t =EndTime.getTime() - NowTime.getTime(); 
-var d=Math.floor(t/1000/60/60/24); 
-var h=Math.floor(t/1000/60/60%24); 
-var m=Math.floor(t/1000/60%60); 
-var s=Math.floor(t/1000%60); 
+<!-- time down >
+<script type="text/javascript">
+function getRTime(){
+var EndTime= new Date('2018/11/11 8:30:00'); //截止时间
+var NowTime = new Date();
+var t =EndTime.getTime() - NowTime.getTime();
+var d=Math.floor(t/1000/60/60/24);
+var h=Math.floor(t/1000/60/60%24);
+var m=Math.floor(t/1000/60%60);
+var s=Math.floor(t/1000%60);
 
-document.getElementById("t_d").innerHTML = d + "天"; 
-document.getElementById("t_h").innerHTML = h + "时"; 
-document.getElementById("t_m").innerHTML = m + "分"; 
-document.getElementById("t_s").innerHTML = s + "秒"; 
-} 
-setInterval(getRTime,1000); 
-</script> 
+document.getElementById("t_d").innerHTML = d + "天";
+document.getElementById("t_h").innerHTML = h + "时";
+document.getElementById("t_m").innerHTML = m + "分";
+document.getElementById("t_s").innerHTML = s + "秒";
+}
+setInterval(getRTime,1000);
+</script-->
 
 {% if site.duoshuo_username %}
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
@@ -190,7 +190,7 @@ setInterval(getRTime,1000);
 		ds.type = 'text/javascript';ds.async = true;
 		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'https:') + '//static.duoshuo.com/embed.js';
 		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0] 
+		(document.getElementsByTagName('head')[0]
 		 || document.getElementsByTagName('body')[0]).appendChild(ds);
 	})();
 	</script>
@@ -214,7 +214,7 @@ function googleTranslateElementInit() {
     var bp = document.createElement('script');
     var curProtocol = window.location.protocol.split(':')[0];
     if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
     }
     else {
         bp.src = 'http://push.zhanzhang.baidu.com/push.js';
@@ -223,3 +223,6 @@ function googleTranslateElementInit() {
     s.parentNode.insertBefore(bp, s);
 })();
 </script>
+
+<!-- Back Top -->
+<script type="text/javascript" src="/js/backtop.js"></script>

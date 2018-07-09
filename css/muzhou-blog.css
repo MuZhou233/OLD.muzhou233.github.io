@@ -15,6 +15,12 @@ img:hover {
 img{
 	transition: all 1s ease 0s;
 }
+pre{
+	transition: all 0.5s ease 0s;
+}
+#post-list{
+	transition: all 0.5s ease 0s;
+}
 pre:hover{/* code line */
 	box-shadow: 0 5px 7px rgba(0, 0, 0, 0.22), 0 7px 14px rgba(0, 0, 0, 0.25);
 }

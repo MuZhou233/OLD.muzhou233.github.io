@@ -12,9 +12,8 @@ img:hover {
 	-webkit-filter: blur(2px); /* Chrome, Safari, Opera */
 	filter: blur(2px);
 }
-img{
-	transition: all 1s ease 0s;
-}
+table,
+img,
 pre{
 	transition: all 0.5s ease 0s;
 }

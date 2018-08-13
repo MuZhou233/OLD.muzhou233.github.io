@@ -23,11 +23,11 @@
 .achievement-link{
 	margin: 15px;
 	padding: 0 10px;
-	display: inline-block
+	display: inline-block;
 	float: right;
 	font-size: 15px;
 	color: #bfbfbf;
-	border: 2px solid #bfbfbf;
+	border: 1px solid #bfbfbf;
 	border-radius: 999em;
 }
 body{

@@ -18,7 +18,6 @@
 }
 .achievement-img{
   margin-top: 20px;
-	margin-bottom: 25px;
 }
 .achievement-link{
 	margin: 15px;
@@ -29,6 +28,10 @@
 	color: #bfbfbf;
 	border: 1px solid #bfbfbf;
 	border-radius: 999em;
+}
+.achievement-link:hover{
+  border-color: #0085a1;
+	text-decoration: none;
 }
 body{
 	position: relative;

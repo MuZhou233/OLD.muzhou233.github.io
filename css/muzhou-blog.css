@@ -468,7 +468,6 @@ pre code {
 }
 .post-container .pager li {
   width: 48%;
-	transition: all 0.5s ease 0s;
 }
 .post-container .pager li.next {
   float: right;
@@ -980,6 +979,7 @@ form .row:first-child .floating-label-form-group {
   padding: 10px;
   background-color: white;
   border-radius: 0;
+	transition: all 0.5s ease 0s;
 }
 @media only screen and (min-width: 768px) {
   .pager li > a,

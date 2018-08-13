@@ -22,6 +22,8 @@
 }
 .achievement-link{
 	margin: 15px;
+	padding: 0 10px;
+	display: inline-block
 	float: right;
 	font-size: 15px;
 	color: #bfbfbf;

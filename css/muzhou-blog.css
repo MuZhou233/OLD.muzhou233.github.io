@@ -468,6 +468,7 @@ pre code {
 }
 .post-container .pager li {
   width: 48%;
+	transition: all 0.5s ease 0s;
 }
 .post-container .pager li.next {
   float: right;
@@ -992,6 +993,7 @@ form .row:first-child .floating-label-form-group {
 }
 .pager li > a:hover,
 .pager li > a:focus {
+	transition: all 0.5s ease 0s;
   color: white;
   background-color: #0085a1;
   border: 1px solid #0085a1;

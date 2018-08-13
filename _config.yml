@@ -100,9 +100,19 @@ friends: [
 # Achievements
 achievements: [
     {
-        name: "第一个MMD",
+        name: "手办？手办！",
+        time: "2018.8.13",
+        img: "/img/ach_2.jpg",
+        url: "https://www.bilibili.com/video/av29197342"
+    },{
+        name: "MMD?MMD!",
         time: "2018.7.20",
         img: "/img/ach_1.jpg",
         url: "https://www.bilibili.com/video/av27269878"
+    },{
+        name: "BLOG?BLOG!",
+        time: "2016.10.17",
+        img: "/img/blue.jpg",
+        url: "https://muzhou.tech/about"
     },
 ]

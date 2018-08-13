@@ -1,6 +1,6 @@
 .achievement-box{
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.22), 0 7px 28px rgba(0, 0, 0, 0.25);
-	padding-top: 10px;
+	padding-top: 15px;
 	padding-left: 0px;
 	padding-right: 0px;
 }
@@ -10,26 +10,19 @@
 	float: left;
 }
 .achievement-time{
-	font-size: 10px;
+	font-size: 13px;
+	margin-top: 7px;
 	margin-right: 15px;
 	float: right;
 }
 .achievement-img{
   margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 }
 .achievement-link{
-	margin: 10px;
-	border-color: #bfbfbf;
-	display: inline-block;
-	border: 1px solid rgba(255, 255, 255, 0.8);
-	border-radius: 999em;
-	padding: 0 10px;
-	line-height: 24px;
-	font-size: 12px;
-	text-decoration: none;
-	margin: 0 1px;
-	margin-bottom: 6px;
+	float: right;
+	font-size: 15px;
+	border: 2px solid #337ab7;
 }
 body{
 	position: relative;

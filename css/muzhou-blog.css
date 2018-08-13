@@ -7,6 +7,7 @@
 .achievement-name{
 	font-size: 20px;
 	margin-left: 20px;
+	margin-bottom:10px;
 	float: left;
 }
 .achievement-time{
@@ -20,9 +21,12 @@
 	margin-bottom: 25px;
 }
 .achievement-link{
+	margin: 15px;
 	float: right;
 	font-size: 15px;
-	border: 2px solid #337ab7;
+	color: #bfbfbf;
+	border: 2px solid #bfbfbf;
+	border-radius: 999em;
 }
 body{
 	position: relative;

@@ -96,3 +96,13 @@ friends: [
         href: "http://blog.gyx1.cn"
     }
 ]
+
+# Achievements
+achievements: [
+    {
+        name: "第一个MMD",
+        time: "2018.7.20",
+        img: "/img/ach_1.jpg",
+        url: "https://www.bilibili.com/video/av27269878"
+    },
+]

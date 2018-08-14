@@ -116,7 +116,7 @@ achievements: [
         detail: "首次写出万字论文",
         time: "2017.11.6",
         img: "/img/ach_3.jpg",
-        url: "dissertation/2018/08/14/dissertation"
+        url: "/dissertation/2018/08/14/dissertation"
     },{
         name: "BLOG?BLOG!",
         detail: "万恶之源",

@@ -100,17 +100,26 @@ friends: [
 # Achievements
 achievements: [
     {
-        name: "手办？手办！",
+        name: "这个盒蛋太小了！",
+        detail: "首次购买周边手办",
         time: "2018.8.13",
         img: "/img/ach_2.jpg",
         url: "https://www.bilibili.com/video/av29197342"
     },{
-        name: "MMD?MMD!",
+        name: "hanser hanser dance",
+        detail: "首次制作MMD",
         time: "2018.7.20",
         img: "/img/ach_1.jpg",
         url: "https://www.bilibili.com/video/av27269878"
     },{
+        name: "编不下去了",
+        detail: "首次写出万字论文",
+        time: "2017.11.6",
+        img: "/img/ach_3.jpg",
+        url: "https://www.bilibili.com/video/av27269878"
+    },{
         name: "BLOG?BLOG!",
+        detail: "万恶之源",
         time: "2016.10.17",
         img: "/img/blue.jpg",
         url: "https://muzhou.tech/about"

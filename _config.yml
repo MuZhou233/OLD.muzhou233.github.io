@@ -116,12 +116,12 @@ achievements: [
         detail: "首次写出万字论文",
         time: "2017.11.6",
         img: "/img/ach_3.jpg",
-        url: "https://www.bilibili.com/video/av27269878"
+        url: "dissertation/2018/08/14/dissertation"
     },{
         name: "BLOG?BLOG!",
         detail: "万恶之源",
         time: "2016.10.17",
         img: "/img/blue.jpg",
-        url: "https://muzhou.tech/about"
+        url: "/about"
     },
 ]

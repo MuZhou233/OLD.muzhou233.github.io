@@ -1,4 +1,5 @@
 .achievement-box{
+	float: left;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.22), 0 7px 28px rgba(0, 0, 0, 0.25);
 	padding-top: 15px;
 	padding-left: 0px;
@@ -15,10 +16,16 @@
 	font-size: 13px;
 	margin-top: 7px;
 	margin-right: 15px;
+	color: #bfbfbf;
 	float: right;
 }
 .achievement-img{
   margin-top: 20px;
+}
+.achievement-detail{
+	margin: 17px;
+	font-size: 14px;
+	float: left;
 }
 .achievement-link{
 	margin: 15px;

@@ -2,8 +2,8 @@
 layout: post
 title: 前路渺茫，我只能前行  ————一个不安分的高三党的思考
 date: 2017-9-15
-categories: writing
-tags: [writing]
+categories: composition
+tags: [composition]
 ---
 
 我的高中生活的确是很与众不同的：住在全员寄宿制学校都不想着回家，逃课不出校门去学校机房，做一些自己也说不清楚的研究。而这一切，没有任何回报的保证。  

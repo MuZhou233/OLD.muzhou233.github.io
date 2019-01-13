@@ -34,9 +34,15 @@ layout: default
     </div>
 </header>
 
-<script src="{{ "/js/jquery.qrcode.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/qart.min.js " | prepend: site.baseurl }}"></script>
 <script>
-jQuery('#qrcode').qrcode({width: 128,height: 128,text: "{{ site.url }}{{ page.url }}"});
+//jQuery('#qrcode').qrcode({width: 128,height: 128,text: "{{ site.url }}{{ page.url }}"});
+new QArt({
+  value: {{ site.url }}{{ page.url }},
+  imagePath: '/favicon.ico',
+  filter: threshold,
+  size: 195
+}).make(document.getElementById('qrcode'));
 </script>
 <style>
 #qrcode-block{

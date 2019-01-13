@@ -39,8 +39,9 @@ layout: default
 //jQuery('#qrcode').qrcode({width: 128,height: 128,text: "{{ site.url }}{{ page.url }}"});
 new QArt({
   value: '{{ site.url }}{{ page.url }}',
-  imagePath: '/photo/road.jpg',
+  imagePath: '/img/mz.jpg',
   filter: 'threshold',
+  background: #208c5b,
   size: 128
 }).make(document.getElementById('qrcode'));
 </script>

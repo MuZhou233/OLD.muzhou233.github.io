@@ -1,16 +1,24 @@
-.achievement-list{
-	column-count: 4;
-	column-gap: 0;
+@media (min-width: 1200px) {
+	.achievement-list{
+		column-count: 4;
+		column-gap: 0;
+	}
 }
 @media (min-width: 768px) {
 	.achievement-list{
 		column-count:3;
+		column-gap: 0;
 	}
 }
 @media (min-width: 400px) {
 	.achievement-list{
 		column-count:2;
+		column-gap: 0;
 	}
+}
+.achievement-list{
+	column-count: 1;
+	column-gap: 0;
 }
 .achievement-box{
 	break-inside: avoid;

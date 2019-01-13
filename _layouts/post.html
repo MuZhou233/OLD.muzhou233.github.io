@@ -28,7 +28,7 @@ layout: default
             </div>
             <div id="qrcode-block" class="hidden-xs hidden-sm">
             	<div id="qrcode"></div>
-            	<p style="text-align:center;color:white">手机阅读</p>
+            	<p style="text-align:right;color:white">手机阅读</p>
             </div>
         </div>
     </div>
@@ -42,8 +42,8 @@ new QArt({
   imagePath: '/img/mz.jpg',
   filter: 'color',
   background: '#208c5b',
-  version: '5',
-  size: '128'
+  version: 5,
+  size: 128
 }).make(document.getElementById('qrcode'));
 </script>
 <style>

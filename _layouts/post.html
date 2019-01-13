@@ -40,7 +40,9 @@ layout: default
 new QArt({
   value: '{{ site.url }}{{ page.url }}',
   imagePath: '/img/mz.jpg',
-  filter: 'threshold',
+  filter: 'color',
+  background: '#208c5b',
+  version: 5,
   size: 128
 }).make(document.getElementById('qrcode'));
 </script>

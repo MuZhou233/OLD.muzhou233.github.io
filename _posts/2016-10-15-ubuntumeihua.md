@@ -5,6 +5,7 @@ date: 2016-10-15
 categories: blog
 tags: [linux]
 description: 
+timedepend: true
 ---
 
 此应用集意在记录我这段时间多次重复安装配置ubuntu的一点经验  

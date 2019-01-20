@@ -5,6 +5,7 @@ date: 2016-10-15
 categories: blog
 tags: [linux,firefox]
 description: 
+timedepend: true
 ---
 
 此应用集意在记录我这段时间多次重复安装配置ubuntu的一点经验
@@ -52,7 +53,7 @@ Step 3:解压压缩包并安装
 	sudo dpkg -i wine-qqintl_0.1.3-2_i386.deb
 
 **三个安装包存在依赖关系,如果安装时出现错误,请尝试:**
-	
+
 	sudo apt-get upgrade -f
 
 # Sogou-input
@@ -68,4 +69,3 @@ Step 3:解压压缩包并安装
 [官方](https://GetLantern.org/)提供linux版本维护,但是有GFW的照顾,你还是去[github](https://github.com/getlantern/lantern-binaries)比较好
 
 在列表中寻找deb包,下载安装即可
-

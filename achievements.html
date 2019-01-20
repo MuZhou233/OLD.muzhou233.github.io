@@ -28,12 +28,14 @@ title: 成就室
 <div class="container">
 	<div class="row achievement-list">
     {% if site.achievements %}{% for achievement in site.achievements %}
+    <div class="achievement-item">
     <div class="achievement-box">
       <div class="achievement-name">{{achievement.name}}</div>
       <div class="achievement-time">{{achievement.time}}</div>
       <img src="{{achievement.img}}" alt class="achievement-img img-responsive">
       <div class="achievement-detail">{{achievement.detail}}</div>
       <a class="achievement-link" target="_blank" href="{{achievement.url}}">更多</a>
+    </div>
     </div>
     {% endfor %}{% endif %}
   </div>

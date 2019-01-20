@@ -125,7 +125,7 @@ achievements: [
         url: "/dissertation/2018/08/14/dissertation"
     },{
         name: "万恶之源",
-        detail: "成功搭建起基于Github的响应式博客",
+        detail: "成功搭建起博客",
         time: "2016.10.17",
         img: "/img/blue.jpg",
         url: "/about"

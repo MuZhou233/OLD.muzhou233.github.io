@@ -5,12 +5,13 @@ date: 2016-10-15
 categories: blog
 tags: [linux,转载]
 description: 
+timedepend: true
 ---
 
 - 用过ubuntu的都（应该）知道apt-fast简直就是神器  
 - 但是这个神奇似乎一直游离于Debian的软件库外  
 - 官方 PPA 源也不提供对Debain的支持  
-  
+
 **难道我们就这样放弃么？**  
 **当然是不可能的！！！！**  
 

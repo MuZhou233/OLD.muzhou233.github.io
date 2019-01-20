@@ -63,6 +63,15 @@ new QArt({
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
 
+              <blockquote>
+                {% if page.timedepend %}
+                <p style="color:#e03636">本文具有时效性，请注意本文的最后一次修改时间为 {{ page.date | date: "%B %-d, %Y" }}</p>
+                {% endif %}
+                {% if page.screenrequire %}
+                <p style="color:#e0bd36">考虑到本文内容，建议您使用电脑或移动设备的横屏进行阅读</p>
+                {% endif %}
+              </blockquote>
+
                 {{ content }}
 
                 <hr>
@@ -137,8 +146,8 @@ new QArt({
     </div>
 </article>
 
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<link rel="stylesheet" href="{{ "/css/gitment.css" | prepend: site.baseurl }}">
+<script src="{{ "/js/gitment.js " | prepend: site.baseurl }}"></script>
 <script>
 var gitment = new Gitment({
   id: '{{ page.url }}',

@@ -6,6 +6,10 @@
      所以无论设置多少层div都对性能没有影响*/
 }
 
+.post-content li{
+  margin-left:20px;
+}
+
 .achievement-list{
   position:relative;
   column-width:300px;

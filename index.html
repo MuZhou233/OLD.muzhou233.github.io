@@ -19,7 +19,7 @@ description: "I am a Student.  I will always be a Student."
 </div>
 <hr>
 
-{% for post in paginator.posts %}
+{% for post in paginator.posts %}{% if post.hide %}{% else %}
 <div id="post-list">
 <div id="post-list-in" class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
@@ -39,7 +39,7 @@ description: "I am a Student.  I will always be a Student."
 </div>
 </div>
 <hr>
-{% endfor %}
+{% endif %}{% endfor %}
 
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}

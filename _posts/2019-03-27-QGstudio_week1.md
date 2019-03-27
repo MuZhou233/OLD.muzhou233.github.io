@@ -3,8 +3,9 @@ layout: post
 title: QG训练营第一周学习报告
 date: 2019-03-27
 categories: blog
-tags: [blog]
+tags: [blog,QGstudio]
 description:
+hide: true
 ---
 
 ## QG训练营前端组第一周周记：2019年3月24日
@@ -38,6 +39,8 @@ QG的二面时间很长，师兄们问的也比较细。总的来说就是因为
 至于看书就是看完Head first HTML, 细读C Primer Plus。
 
 ## 作业：包含命令行交互的链表实现
+
+[前往GitHub查看代码]({{ site.code-lib-url }}QGstudio_week1)
 
 - main.c
 - head

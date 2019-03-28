@@ -1,7 +1,2 @@
-## 说明
-
-
-
-此博客 fork 自 CnFeat，感谢。
-
-
+![](https://img.shields.io/badge/GirlFriend-NotFound-Red.svg)
+![](https://img.shields.io/badge/lisense-MIT-Black.svg)

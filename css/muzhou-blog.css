@@ -6,10 +6,6 @@
      所以无论设置多少层div都对性能没有影响*/
 }
 
-.post-content > p{
-  text-indent:2em;
-}
-
 .post-content li{
   margin-left:20px;
 }

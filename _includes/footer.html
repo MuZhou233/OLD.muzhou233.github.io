@@ -153,11 +153,7 @@ $(document).ready(function() {
 
 <!-- smooth-scroll -->
 <script src="{{ "/js/smooth-scroll.min.js " | prepend: site.baseurl }}"></script>
-<script type="text/javascript">
-    $('[data-scroll]').smoothScroll({
-        offset: -100
-    });
-</script>
+<script type="text/javascript">smoothScroll.init({offset:-100});</script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>

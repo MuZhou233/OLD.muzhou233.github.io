@@ -70,6 +70,9 @@ new QArt({
                 {% if page.screenrequire %}
                 <p style="color:#e0bd36">考虑到本文内容，建议您使用较大尺寸屏幕进行阅读</p>
                 {% endif %}
+                {% if page.editing %}
+                <p style="color:#3366FF">本文处于持续编辑状态，内容可能缺乏完整性及严谨性</p>
+                {% endif %}
               </blockquote>
               <div class="post-content" {% if page.question %} style="display:none" {% endif %}>
                 {{ content }}

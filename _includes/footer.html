@@ -153,7 +153,12 @@ $(document).ready(function() {
 
 <!-- smooth-scroll -->
 <script src="{{ "/js/smooth-scroll.min.js " | prepend: site.baseurl }}"></script>
-<script type="text/javascript">smoothScroll.init();</script>
+<script type="text/javascript">
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 300,
+        offset: -100
+    });
+</script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>

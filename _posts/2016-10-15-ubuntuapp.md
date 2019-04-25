@@ -19,15 +19,15 @@ timedepend: true
 - Sogou-input
 - Lantern
 
-# Firefox
+## Firefox
 
 系统自带,但是要单独开一篇
 
-# Thunderbird
+## Thunderbird
 
 系统自带,兼容主流电子邮件服务商
 
-# QQ
+## QQ
 
 **这里讨论基于 wine 的 QQ**
 
@@ -56,7 +56,7 @@ Step 3:解压压缩包并安装
 
 	sudo apt-get upgrade -f
 
-# Sogou-input
+## Sogou-input
 
 **搜狗官方提供下载及说明文档,比较良心,不像某讯**
 
@@ -64,7 +64,7 @@ Step 3:解压压缩包并安装
 
 *需要先安装fcitx,但是有官方教程,在此不再赘述*
 
-# Lantern
+## Lantern
 
 [官方](https://GetLantern.org/)提供linux版本维护,但是有GFW的照顾,你还是去[github](https://github.com/getlantern/lantern-binaries)比较好
 

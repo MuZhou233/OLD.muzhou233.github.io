@@ -17,11 +17,11 @@ timedepend: true
 - Compiz  
 - Ubuntu-tweak   
 
-# Compize
+## Compize
 
 **ubuntu特效神器 但是容易导致系统不稳定**  
 
-## 安装方法
+### 安装方法
 
 Step 1:安装N卡驱动工具  
 
@@ -36,7 +36,7 @@ Step 2:安装Compiz
 
 Step 3：打开compiz config-settings-manager(CCSM),就可以开始折腾了,**请自行探索,这样才有意思**  
 
-## 折腾死之后的复活
+### 折腾死之后的复活
 
 **使用过程中不要习惯性的忽视compiz给出的警告,如果桌面环境死掉了,请这样做:**  
 
@@ -63,11 +63,11 @@ Step 4:重启
 
 ***
 
-# Ubuntu-tweak
+## Ubuntu-tweak
 
 **有很多实用工具,但是据说已经停止更新了,不过没关系,还是可以下载使用的**  
 
-## 安装方法
+### 安装方法
 
 Step 1:添加PPA源  
 
@@ -87,7 +87,7 @@ Step 3:下载Ubuntu tweak
 
 **ubuntu-tweak安装好之后会添加到系统设置菜单,不需要到处寻找**  
 
-## 主题推荐
+### 主题推荐
 
 Numix 确实是一款漂亮的主题。它有着扁平和弧形图标，并且完美的集成进 Unity 桌面环境中  
 

@@ -155,7 +155,9 @@ $(document).ready(function() {
 <script src="{{ "/js/smooth-scroll.min.js " | prepend: site.baseurl }}"></script>
 <script type="text/javascript">
     var scroll = new SmoothScroll('a[href*="#"]',{
-        offset: 200
+        offset: 200,
+        speed: 500,
+        autoCoefficent: 10
     });
 </script>
 

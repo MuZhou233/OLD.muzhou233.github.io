@@ -21,15 +21,15 @@ timedepend: true
 
 **为了便于操作我们还是在root下进行吧**  
 
-# Step.1 安装axel
+## Step.1 安装axel
 
 	$ sudo apt-get install axel
 
-# Step.2 下载脚本apt-fast.sh
+## Step.2 下载脚本apt-fast.sh
 
 	下载地址http://www.mattparnell.com/linux/apt-fast/apt-fast.sh
 
-# Step.3 安装apt-fast
+## Step.3 安装apt-fast
 
 	sudo mv /root/apt-fast.sh /usr/bin/apt-fast
 	sudo chmod +x /usr/bin/apt-fast
@@ -45,7 +45,7 @@ timedepend: true
 
 **为什么只有4线程？ 说好的10线程呢？**  
 
-# Step.4 魔改axel设置脚本！
+## Step.4 魔改axel设置脚本！
 
 	sudo gedit /etc/axelrc
 

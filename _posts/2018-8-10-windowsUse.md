@@ -3,7 +3,7 @@ layout: post
 title: win10从上手到入门
 date: 2018-8-10
 categories: blog
-tags: [win10,六月下]
+tags: [WIN10,六月下]
 timedepend: true
 hide: true
 ---

@@ -3,7 +3,7 @@ layout: post
 title: QG训练营第一周学习报告
 date: 2019-03-27
 categories: blog
-tags: [blog,QGstudio]
+tags: [QGstudio]
 description:
 hide: true
 ---

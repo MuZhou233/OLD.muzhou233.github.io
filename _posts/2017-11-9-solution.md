@@ -3,7 +3,7 @@ layout: post
 title: 备战NOIP2017-zkw线段树
 date: 2017-11-9
 categories: blog
-tags: [oi]
+tags: [OI]
 ---
 
 本来不准备写备战NOIP2017系列了，无奈刷题刷爽了...  

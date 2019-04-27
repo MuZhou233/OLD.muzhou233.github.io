@@ -3,7 +3,7 @@ layout: post
 title: 浏览器插件总结
 date: 2016-10-15
 categories: blog
-tags: [firefox]
+tags: [FIREFOX]
 description: 
 timedepend: true
 ---

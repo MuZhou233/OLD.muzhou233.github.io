@@ -41,7 +41,10 @@ header-img: "img/semantic.jpg"
 			<div class="one-tag-list">
 			  	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
                     <span class="tag-text">{{ tag[0] }}</span>
-                </span>
+				</span>
+				{% for tagDetail in site.tagDetais %}{% if tagDetail.name == tag[0] %}
+				<p class="tag-detail">{{ tageDetail.content }}</p>
+				{% endif %}{% endfor %}
 				{% for post in tag[1] %}
 				  <!-- <li class="listing-item">
 				  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
@@ -58,7 +61,7 @@ header-img: "img/semantic.jpg"
 				        </h3>
 				        {% endif %}
 				    </a>
-				    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+				    <p class="post-meta">POST ON {{ post.date | date:"%Y-%m-%d" }}</p>
 				</div>
 				<hr>
 				{% endfor %}

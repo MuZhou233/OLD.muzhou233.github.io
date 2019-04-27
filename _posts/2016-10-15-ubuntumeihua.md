@@ -3,7 +3,7 @@ layout: post
 title: Ubuntu使用记录-美化篇
 date: 2016-10-15
 categories: blog
-tags: [linux]
+tags: [LINUX,UBUNTU]
 description: 
 timedepend: true
 ---

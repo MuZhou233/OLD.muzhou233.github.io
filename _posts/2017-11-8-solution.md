@@ -3,7 +3,7 @@ layout: post
 title: 备战NOIP2017-论差分的好
 date: 2017-11-8
 categories: blog
-tags: [oi]
+tags: [OI]
 ---
 
 本来不准备写备战NOIP2017系列了，无奈刷题刷爽了...  

@@ -141,3 +141,11 @@ achievements: [
         url: "/about"
     }
 ]
+
+#TagDetials
+tagDetials: [
+    {
+        name: "简明教程",
+        content: "对网络上各类教程的浓缩笔记"
+    }
+]

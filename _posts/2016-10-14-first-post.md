@@ -3,7 +3,7 @@ layout: post
 title: Hello, Github!
 date: 2016-10-14
 categories: blog
-tags: [blog]
+tags: [MILESTONE]
 description: 
 ---
 

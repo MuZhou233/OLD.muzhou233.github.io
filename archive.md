@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "归档"
-description: "你看到的，是我想给你或者我自己看的所有"
+description: "你看到的，是我想给你看的所有"
 header-img: "img/black.jpg"
 ---
 

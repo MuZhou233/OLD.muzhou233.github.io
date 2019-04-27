@@ -73,7 +73,7 @@ code-lib-url: https://github.com/Mu-Zhou/mu-zhou.github.io/blob/master/code/
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 2              # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 3              # A tag will be featured if the size of it is more than this condition value
 
 # Friends
 friends: [
@@ -98,6 +98,9 @@ friends: [
     },{
         title: "Tabing",
         href: "http://blog.gyx1.cn"
+#    },{
+#        title: "",
+#        href: ""
     }
 ]
 
@@ -139,6 +142,12 @@ achievements: [
         time: "2016.10.17",
         img: "/img/ach/ach_0.jpg",
         url: "/about"
+#    },{
+#        name: "",
+#        detail: "",
+#        time: "",
+#        img: "",
+#        url: ""
     }
 ]
 
@@ -146,6 +155,21 @@ achievements: [
 tagDetails: [
     {
         name: "简明教程",
-        content: "对网络上各类教程的浓缩笔记"
+        content: "各类教程的浓缩笔记"
+    },{
+        name: "六月下",
+        content: "高考后策划的系列博文"
+    },{
+        name: "持续记录",
+        content: "内容会持续更新的博文"
+    },{
+        name: "OI",
+        content: "曾经作为一个OIer所作的记录"
+    },{
+        name: "转载",
+        content: "犯懒的结晶"
+#    },{
+#        name: "",
+#        content: ""
     }
 ]

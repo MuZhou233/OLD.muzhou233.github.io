@@ -3,7 +3,7 @@ layout: post
 title: 单调队列实现与例题
 date: 2016-10-15
 categories: blog
-tags: [oi]
+tags: [OI]
 description: 
 ---
 

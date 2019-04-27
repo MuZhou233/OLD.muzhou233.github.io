@@ -3,7 +3,7 @@ layout: post
 title: 魔兽世界之一：备战-解题报告
 date: 2016-10-15
 categories: blog
-tags: [oi]
+tags: [OI]
 description: 
 ---
 

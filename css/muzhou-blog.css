@@ -6,7 +6,12 @@
      所以无论设置多少层div都对性能没有影响*/
 }
 
-.commentHead{
+.tag-detail{
+  font-style: italic;
+  color: #666666;
+}
+
+.comment-head{
   visibility: hidden;
 }
 

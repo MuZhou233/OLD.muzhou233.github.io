@@ -35,23 +35,22 @@ header-img: "img/black.jpg"
     class="tag-button"
     title="{{ tag[0] }}" rel="{{ tag[1].size }}">
     {{ tag[0] }}
-    <sup>{{tag[1].size}}</sup>
+    <sup>{{ tag[1].size }}</sup>
 </a>
 
 {% endfor %}
 {% endcapture %}
 
 {{ tags | split:'</a>' | sort | join:'</a>' }}
+
 </div>
 
-    <!-- Article List -->
-    <div class="mini-post-list js-result d-none">
-    {%- assign _sorted_list = site.posts -%}
-    {%- assign _sorted_list = _sorted_list | sort: 'date' -%}
-    {%- assign _sorted_list = _sorted_list | reverse -%}
-
-
-    {%- for _article in _sorted_list -%}
+<!-- Article List -->
+<div class="mini-post-list js-result d-none">
+  {%- assign _sorted_list = site.posts -%}
+  {%- assign _sorted_list = _sorted_list | sort: 'date' -%}
+  {%- assign _sorted_list = _sorted_list | reverse -%}
+  {%- for _article in _sorted_list -%}
         {%- assign _tags = '' -%}
         {%- for _tag in _article.tags -%}
         {%- assign _tag_encode = _tag | strip | url_encode -%}
@@ -87,6 +86,6 @@ header-img: "img/black.jpg"
             <hr>
             </div>
         {% endfor %}
-    </div>
-    </div>
+</div>
+</div>
 </div>

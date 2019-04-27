@@ -42,7 +42,7 @@ header-img: "img/semantic.jpg"
 			  	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
                     <span class="tag-text">{{ tag[0] }}</span>
 				</span>
-				{% for tagDetail in site.tagDetais %}{% if tagDetail.name == tag[0] %}
+				{% for tagDetail in site.tagDetails %}{% if tagDetail.name == tag[0] %}
 				<p class="tag-detail">{{ tageDetail.content }}</p>
 				{% endif %}{% endfor %}
 				{% for post in tag[1] %}

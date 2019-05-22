@@ -74,6 +74,9 @@ new QArt({
                 {% if page.editing %}
                 <p style="color:#0066CC">本文处于持续编辑状态，内容可能缺乏完整性及严谨性</p>
                 {% endif %}
+                {% if page.musicID %}
+                <p style="color:#00CD00">本文已设置专属背景音乐，请点击右上角欣赏</p>
+                {% endif %}
               </blockquote>
               <div class="post-content" {% if page.question %} style="display:none" {% endif %}>
                 {{ content }}

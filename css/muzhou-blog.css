@@ -6,6 +6,16 @@
      所以无论设置多少层div都对性能没有影响*/
 }
 
+.table-responsive{
+  border: unset;
+}
+table{
+	width:100px;
+}
+table > tbody > tr > td{
+  white-space: inherit !important;
+}
+
 .tag-detail{
   font-style: italic;
   color: #666666;
@@ -427,6 +437,7 @@ img.shadow {
 .table th,
 .table td {
   border: 1px solid #eee !important;
+  border-left: 2px solid #ccc !important;
 }
 hr.small {
   max-width: 100px;

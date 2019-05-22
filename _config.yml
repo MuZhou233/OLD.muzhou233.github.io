@@ -65,7 +65,7 @@ bing_verify:
 # Links to include in footer navigation
 
 # Gems
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 # Code Libraries
 

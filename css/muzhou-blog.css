@@ -9,8 +9,8 @@
 .table-responsive{
   border: unset;
 }
-table{
-	width:100px;
+.table{
+  margin-bottom: 0;
 }
 table > tbody > tr > td{
   white-space: inherit !important;

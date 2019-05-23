@@ -1,11 +1,11 @@
 ---
 layout: page
 title: "归档"
-description: "你看到的，是我想给你看的所有"
+description: ""
 header-img: "img/black.jpg"
 ---
 
-<!--
+
 <ul class="listing">
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
@@ -19,8 +19,8 @@ header-img: "img/black.jpg"
   </li>
 {% endfor %}
 </ul>
--->
-<!-- Tags (as filter) -->
+
+<!-- Tags (as filter) 
 <div id='tag_cloud' class="tags tags-sup js-tags">
   <a class="tag-button--all" data-encode="">
     Show All
@@ -45,7 +45,7 @@ header-img: "img/black.jpg"
 
 </div>
 
-<!-- Article List -->
+<!-- Article List 
 <div class="mini-post-list js-result d-none">
   {%- assign _sorted_list = site.posts -%}
   {%- assign _sorted_list = _sorted_list | sort: 'date' -%}
@@ -89,3 +89,6 @@ header-img: "img/black.jpg"
 </div>
 </div>
 </div>
+
+<script src="{{ "/js/muzhou-blog.js " | prepend: site.baseurl }}"></script>
+-->

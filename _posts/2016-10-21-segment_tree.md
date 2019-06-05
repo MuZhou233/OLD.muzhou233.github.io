@@ -49,12 +49,12 @@ struct SEG{
 
 #### 点修改  
 
-线段树在点修改时会把包含该点的区间修改，下面是一个修改节点4的示意图，红色节点表示该节点被修改。具体改法详见代码。  
+线段树在点修改时会把包含该点的区间修改，下面是一个修改节点 4 的示意图，红色节点表示该节点被修改。具体改法详见代码。  
 
 ![](http://img.blog.csdn.net/20160806175312261)  
 
 ```c++  
-void change(int u,int p,int x){//u代表当前所在节点编号，p表示所要修改对应的线段，x是表示线段p要修改为x
+void change(int u,int p,int x){//u 代表当前所在节点编号，p 表示所要修改对应的线段，x 是表示线段 p 要修改为 x
     if(u==-1) return;//如果该节点不存在直接退出
     SEG &now=Tree[u];
     if(now.l>p||now.r<p) return;//如果p不在该区间内，则直接退出
@@ -78,10 +78,10 @@ void change(int u,int p,int x){//u代表当前所在节点编号，p表示所要
 代码：  
 
 ```c++  
-int query(int u,int L,int R){//u表示当前查询已经访问到节点u，要查询的区间为L,R
+int query(int u,int L,int R){//u 表示当前查询已经访问到节点 u，要查询的区间为 L,R
     SEG &now=Tree[u];
-    if(now.l>R||now.r<L) return INF;//如果所查询的区间完全不在节点u所控制的区间范围内返回正无穷
-    if(now.l>=L&&now.r<=R) return now.min;//u所控制的区间是所要查询的区间的子区间，则返回该区间的最小值
+    if(now.l>R||now.r<L) return INF;//如果所查询的区间完全不在节点 u 所控制的区间范围内返回正无穷
+    if(now.l>=L&&now.r<=R) return now.min;//u 所控制的区间是所要查询的区间的子区间，则返回该区间的最小值
     return min(query(now.lch,L,R),query(now.rch,L,R));//如果上述两种情况都不满足则继续细分区间直到满足上述情况为止
 }
 ```  

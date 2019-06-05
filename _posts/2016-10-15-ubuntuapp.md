@@ -8,7 +8,7 @@ description:
 timedepend: true
 ---
 
-此应用集意在记录我这段时间多次重复安装配置ubuntu的一点经验
+此应用集意在记录我这段时间多次重复安装配置 ubuntu 的一点经验
 **注:**
 **本人使用的环境为 ubuntu12.04LTS 桌面环境为默认的 unity,虽然版本较老 但比较稳定**
 **本文中使用的 apt-fast 命令在我的另一篇博客中提到,如果没有安装请改为 apt-get**
@@ -35,15 +35,15 @@ Step 1:下载安装 wine
 
 	sudo apt-fast install wine
 
-Step 2:下载QQ国际版(前两个过程耗时较长,可以与Step 1同时下载)
+Step 2:下载QQ国际版(前两个过程耗时较长,可以与 Step 1 同时下载)
 
 	百度网盘: http://pan.baidu.com/s/1hr5Z4I4
 
 *这个资源是 优麒麟 提供的,可以放心下载,你也可以查看[原地址](http://www.ubuntukylin.com/application/show.php?lang=cn&id=279)*
 
 Step 3:解压压缩包并安装
-
-	如果无法解压zip文档 请安装rar
+ 
+	如果无法解压 zip 文档 请安装 rar
 	sudo apt-fast install rar
 
 ***
@@ -62,10 +62,10 @@ Step 3:解压压缩包并安装
 
 [点击打开官方网址](http://pinyin.sogou.com/linux/?r=pinyin)
 
-*需要先安装fcitx,但是有官方教程,在此不再赘述*
+*需要先安装 fcitx,但是有官方教程,在此不再赘述*
 
 ## Lantern
 
-[官方](https://GetLantern.org/)提供linux版本维护,但是有GFW的照顾,你还是去[github](https://github.com/getlantern/lantern-binaries)比较好
+[官方](https://GetLantern.org/)提供 linux 版本维护,但是有 GFW 的照顾,你还是去 [github](https://github.com/getlantern/lantern-binaries)比较好
 
-在列表中寻找deb包,下载安装即可
+在列表中寻找 deb 包,下载安装即可

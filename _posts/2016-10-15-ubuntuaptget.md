@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ubuntu下神奇的多线程apt-get
+title: Ubuntu 下神奇的多线程 apt-get
 date: 2016-10-15
 categories: blog
 tags: [LINUX,UBUNTU,转载]

@@ -35,7 +35,7 @@ Step 1:下载安装 wine
 
 	sudo apt-fast install wine
 
-Step 2:下载QQ国际版(前两个过程耗时较长,可以与 Step 1 同时下载)
+Step 2:下载 QQ 国际版(前两个过程耗时较长,可以与 Step 1 同时下载)
 
 	百度网盘: http://pan.baidu.com/s/1hr5Z4I4
 

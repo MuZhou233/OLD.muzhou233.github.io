@@ -4,7 +4,7 @@ title: 浏览器插件总结
 date: 2016-10-15
 categories: blog
 tags: [FIREFOX]
-description: 
+description: 火狐插件推荐
 timedepend: true
 ---
 在这里总结我最喜欢的浏览器插件,他们兼容于主流浏览器  
@@ -25,8 +25,8 @@ timedepend: true
 
 使用自定义的 css 语句修改网页,可以让网页变成自己喜欢的样子  
 
-**你是dalao,自己写css**  
-**你不是dalao,去[官网](https://userstyles.org)搜索需要的样式**  
+**你是 dalao,自己写 css**  
+**你不是 dalao,去[官网](https://userstyles.org)搜索需要的样式**  
 
 这里推荐一些必备的:  
 
@@ -47,7 +47,7 @@ timedepend: true
 
 插件的名字  
 
-1. IE（IE7以上）：Trixie  
+1. IE（IE7 以上）：Trixie  
 2. firefox：Greasemonkey, GreaseFire  
 3. chrome：ninja kit  
 4. safari：ninja kit for safari  
